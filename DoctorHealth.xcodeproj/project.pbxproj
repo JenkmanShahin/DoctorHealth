@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B0CDF1729546E2D00492E44 /* Quintessential-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B0CDF1629546E2D00492E44 /* Quintessential-Regular.ttf */; };
+		3B0CDF1B2954716F00492E44 /* Bungee-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B0CDF1A2954716F00492E44 /* Bungee-Regular.ttf */; };
 		3B6311732952FF00000D5A35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6311722952FF00000D5A35 /* AppDelegate.swift */; };
 		3B6311752952FF00000D5A35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6311742952FF00000D5A35 /* SceneDelegate.swift */; };
 		3B6311772952FF00000D5A35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6311762952FF00000D5A35 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B0CDF1629546E2D00492E44 /* Quintessential-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quintessential-Regular.ttf"; sourceTree = "<group>"; };
+		3B0CDF1A2954716F00492E44 /* Bungee-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Bungee-Regular.ttf"; path = "../../../../../Downloads/Bungee/Bungee-Regular.ttf"; sourceTree = "<group>"; };
 		3B63116F2952FF00000D5A35 /* DoctorHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6311722952FF00000D5A35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B6311742952FF00000D5A35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B0CDF1529546DC700492E44 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3B0CDF1629546E2D00492E44 /* Quintessential-Regular.ttf */,
+				3B0CDF1A2954716F00492E44 /* Bungee-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		3B6311662952FF00000D5A35 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +71,10 @@
 		3B6311712952FF00000D5A35 /* DoctorHealth */ = {
 			isa = PBXGroup;
 			children = (
+				3B0CDF1529546DC700492E44 /* Fonts */,
+				3BA5AEF0295399A900125AAF /* Views */,
 				3B6311722952FF00000D5A35 /* AppDelegate.swift */,
 				3B6311742952FF00000D5A35 /* SceneDelegate.swift */,
-				3B6311762952FF00000D5A35 /* ViewController.swift */,
 				3B6311782952FF00000D5A35 /* Main.storyboard */,
 				3B63117E2952FF00000D5A35 /* Assets.xcassets */,
 				3B6311802952FF00000D5A35 /* LaunchScreen.storyboard */,
@@ -68,6 +82,14 @@
 				3B63117B2952FF00000D5A35 /* DoctorHealth.xcdatamodeld */,
 			);
 			path = DoctorHealth;
+			sourceTree = "<group>";
+		};
+		3BA5AEF0295399A900125AAF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B6311762952FF00000D5A35 /* ViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +152,8 @@
 			files = (
 				3B6311822952FF00000D5A35 /* LaunchScreen.storyboard in Resources */,
 				3B63117F2952FF00000D5A35 /* Assets.xcassets in Resources */,
+				3B0CDF1729546E2D00492E44 /* Quintessential-Regular.ttf in Resources */,
+				3B0CDF1B2954716F00492E44 /* Bungee-Regular.ttf in Resources */,
 				3B63117A2952FF00000D5A35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
