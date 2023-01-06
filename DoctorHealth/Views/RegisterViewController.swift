@@ -42,9 +42,11 @@ class RegisterViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         keyboardDismissable()
+        createDatePicker()
         registerButton.isEnabled = true
         email.keyboardType = .emailAddress
         height.keyboardType = .decimalPad
+        weight.keyboardType = .decimalPad
         password.isSecureTextEntry = true
         fullName.delegate = self
         email.delegate = self
@@ -126,17 +128,18 @@ class RegisterViewController: UIViewController{
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd.MM.yyyy"
         birthdate.text = dateFormatter.string(from: datePicker.date)
-        height.becomeFirstResponder()
-    }
-    
-    func createDatePicker() {
+        birthdate.becomeFirstResponder()
+      }
+      
+      func createDatePicker() {
         datePicker.preferredDatePickerStyle = .wheels
         datePicker.datePickerMode = .date
         birthdate.inputView = datePicker
         birthdate.inputAccessoryView = createToolbar()
-    }
-    
-    func createToolbar() -> UIToolbar {
+        
+      }
+      
+      func createToolbar() -> UIToolbar {
         let toolbar = UIToolbar()
         
         toolbar.sizeToFit()
@@ -145,7 +148,7 @@ class RegisterViewController: UIViewController{
         
         return toolbar
         
-    }
+      }
 
     //transferdata
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

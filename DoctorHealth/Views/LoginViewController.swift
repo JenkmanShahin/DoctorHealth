@@ -48,9 +48,14 @@ class LoginViewController: UIViewController{
     
     //transferdata
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-       let destinationVC = segue.destination as? HomeViewController
+   //    wir speichern den TabBarController in einer variable
+       let destinationVC = segue.destination as! UITabBarController
+   //    wir greifen auf das 1te tab des tabBarControllers [0]
+       let homeVc = destinationVC.viewControllers?[0] as! HomeViewController
+   //    wir geben den user vom loginController zum userViewController
        let enteringUser = sender as? User
-       destinationVC!.user = enteringUser!
+        homeVc.user = enteringUser
+       
      }
     
     func fetchUser() {
