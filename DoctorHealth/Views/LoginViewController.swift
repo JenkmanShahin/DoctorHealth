@@ -16,67 +16,71 @@ import UIKit
 class LoginViewController: UIViewController{
     
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-      
-      var users: [User]?
+    
+    var users: [User]!
+    var logUser: User!
+    
     
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var loginButton: UIButton!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         email.keyboardType = .emailAddress
-            password.isSecureTextEntry = true
-            
-            email.delegate = self
-            password.delegate = self
-            fetchUser()
-          }
+        password.isSecureTextEntry = true
+        
+        email.delegate = self
+        password.delegate = self
+        fetchUser()
+        
+        
+    }
     
     //Dissmis Keyboard
-      @objc func dismissKeyboardTouchOutside(){
+    @objc func dismissKeyboardTouchOutside(){
         self.view.endEditing(true)
-      }
+    }
     
-      func keyboardDismissable() {
+    func keyboardDismissable() {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self,
-        action: #selector(dismissKeyboardTouchOutside))
+                                                                 action: #selector(dismissKeyboardTouchOutside))
         tap.cancelsTouchesInView = false
         view.addGestureRecognizer(tap)
-      }
+    }
     
-    //transferdata
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-   //    wir speichern den TabBarController in einer variable
-       let destinationVC = segue.destination as! UITabBarController
-   //    wir greifen auf das 1te tab des tabBarControllers [0]
-       let homeVc = destinationVC.viewControllers?[0] as! HomeViewController
-   //    wir geben den user vom loginController zum userViewController
-       let enteringUser = sender as? User
-        homeVc.user = enteringUser
-       
-     }
+   
     
     func fetchUser() {
         do {
-          self.users = try context.fetch(User.fetchRequest())
+            self.users = try context.fetch(User.fetchRequest())
         } catch {
-          print("error")
+            print("error")
         }
-      }
+    }
     
     @IBAction func buttonPressed(_ sender: Any) {
-        for i in 0...users!.count - 1 {
-            print(users![i].email)
-            if  (users![i].email == email.text && users![i].password == password.text) {
-                performSegue(withIdentifier: "show_second", sender: self.users![i])
-                break
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let mainTabBarController = storyboard.instantiateViewController(identifier: "MainTabBarController")
+        
+        if users != nil {
+            for user in users! {
+                NotificationCenter.default.post(name: NSNotification.Name.init("login"), object: user)
+                (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
+               
+              
+                if  (user.email == email.text && user.password == password.text) {
+                    var brian = user
+                    print(brian.height)
+                    
+                  
+                }
             }
         }
-     }
+    }}
     
-    }
+    
     
     //textField
     extension LoginViewController: UITextFieldDelegate{

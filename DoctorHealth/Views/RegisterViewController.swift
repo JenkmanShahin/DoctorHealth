@@ -22,7 +22,8 @@ class RegisterViewController: UIViewController{
     
     
     
-    var user: [User]?
+    var user: [User]!
+    
     @IBOutlet weak var birthdate: UITextField!
     @IBOutlet weak var fullName: UITextField!
     @IBOutlet weak var email: UITextField!
@@ -90,14 +91,19 @@ class RegisterViewController: UIViewController{
         do{
             try self.context.save()
             print(new)
+            DispatchQueue.main.async {
+                NotificationCenter.default.post(name: NSNotification.Name.init("register"), object: new)
+                  }
         } catch {
             print("error")
         }
         
-        NotificationCenter.default.post(name: NSNotification.Name.init("de.ViewsWechseln.addUser"), object: new)
         
-        self.dismiss(animated: true)
-        performSegue(withIdentifier: "registerSegue", sender: new)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let mainTabBarController = storyboard.instantiateViewController(identifier: "MainTabBarController")
+        (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
+        
+        
     }
 
     @objc func keyBoardWillShow(notification: NSNotification) {
@@ -196,7 +202,7 @@ class RegisterViewController: UIViewController{
                 gender.text = genders[row]
             default: print("Picker nicht bekannt")
             }
-            birthdate.becomeFirstResponder()
+            gender.becomeFirstResponder()
         } 
     }
 

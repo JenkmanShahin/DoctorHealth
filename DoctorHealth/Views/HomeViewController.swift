@@ -8,15 +8,32 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-
-    var user: User!
+    
+    var user: User?
     
     @IBOutlet weak var welcomeText: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        welcomeText.text = "Hallo \(user.fullname ?? "")"
-
+        NotificationCenter.default.addObserver(self, selector: #selector(loginUser(_ :)), name: NSNotification.Name.init("login"), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(loginUser(_ :)), name: NSNotification.Name.init("register"), object: nil)
+        
+        
     }
-
+    
+   
+    
+    override func viewDidAppear(_ animated: Bool) {
+        welcomeText.text = "Welcome \(user?.fullname ?? "king Brian")"
+    }
+    
+    @objc func loginUser(_ notification: NSNotification){
+        if let x = notification.object as? User{
+            
+            user = x
+            print(user?.fullname)
+        } else {
+            return
+        }
+    }
 }

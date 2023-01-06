@@ -22,9 +22,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7YY-0q-nwe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="839" y="663"/>
+            <point key="canvasLocation" x="2692.3664122137402" y="661.97183098591552"/>
         </scene>
-        <!--Home-->
+        <!--Item-->
         <scene sceneID="U8B-tF-HHq">
             <objects>
                 <viewController id="tRY-iM-JbL" customClass="HomeViewController" customModule="DoctorHealth" customModuleProvider="target" sceneMemberID="viewController">
@@ -33,11 +33,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vgm-Wr-h05">
-                                <rect key="frame" x="67" y="115.99999999999999" width="52" height="26.333333333333329"/>
+                                <rect key="frame" x="67" y="72" width="52" height="26.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="woman health worker_" translatesAutoresizingMaskIntoConstraints="NO" id="JW9-pz-pGa">
+                                <rect key="frame" x="220" y="453" width="157" height="169"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="man health worker_" translatesAutoresizingMaskIntoConstraints="NO" id="9Xy-75-IgN">
+                                <rect key="frame" x="16" y="453" width="157" height="169"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cbF-LA-fwn"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -46,36 +54,15 @@
                             <constraint firstItem="vgm-Wr-h05" firstAttribute="top" secondItem="cbF-LA-fwn" secondAttribute="top" constant="13" id="6c5-ua-TLW"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="QXv-In-BQf"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="S2v-ck-PiQ"/>
+                    <navigationItem key="navigationItem" id="1DI-oN-zwZ"/>
                     <connections>
                         <outlet property="welcomeText" destination="vgm-Wr-h05" id="76M-Aq-Dj5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kYE-F8-BZV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1341.2213740458014" y="662.67605633802816"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="Gqi-SZ-zIT">
-            <objects>
-                <tabBarController id="UOT-8B-Yio" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="cYd-9q-IhF"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kXq-97-Lpm">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="tRY-iM-JbL" kind="relationship" relationship="viewControllers" id="i39-AN-UPv"/>
-                        <segue destination="UIn-E8-oFx" kind="relationship" relationship="viewControllers" id="uY5-Jg-roo"/>
-                        <segue destination="jiw-Bj-5WW" kind="relationship" relationship="viewControllers" id="BJi-g3-sXa"/>
-                        <segue destination="Ijh-1L-96B" kind="relationship" relationship="viewControllers" id="hSd-RE-OlO"/>
-                        <segue destination="15D-qG-lXw" kind="relationship" relationship="viewControllers" id="wzp-Ee-sdH"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bSx-8m-J1W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2054" y="664"/>
+            <point key="canvasLocation" x="547.32824427480909" y="661.97183098591552"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="eXE-8s-9X7">
@@ -102,8 +89,8 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Join the DoctorHealth " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2RE-O3-uTD">
-                                <rect key="frame" x="79" y="151" width="234" height="26.666666666666657"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="24"/>
+                                <rect key="frame" x="79.000000000000014" y="151" width="253.33333333333337" height="28"/>
+                                <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -283,7 +270,7 @@
         <!--Navigation Controller-->
         <scene sceneID="xw7-QJ-FVm">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ll4-hD-Khd" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="LoginNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="Ll4-hD-Khd" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="eFv-TJ-Rcv">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -312,7 +299,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MJc-tG-7Ba" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-625" y="663"/>
+            <point key="canvasLocation" x="1228.2442748091603" y="661.97183098591552"/>
         </scene>
         <!--Medicine-->
         <scene sceneID="ewa-hE-c1W">
@@ -328,7 +315,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DgO-Zb-xoD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="109" y="663"/>
+            <point key="canvasLocation" x="1961.0687022900763" y="661.97183098591552"/>
         </scene>
         <!--Profile-->
         <scene sceneID="ZCN-a8-DMo">
@@ -344,7 +331,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cA8-aj-7S8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1616" y="663"/>
+            <point key="canvasLocation" x="384" y="-79"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="CGq-ZP-Pbv">
@@ -382,7 +369,6 @@
                                 <buttonConfiguration key="configuration" style="filled" title="LOG IN"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="WQO-Fn-yHf" eventType="touchUpInside" id="nSs-xi-0Ve"/>
-                                    <segue destination="UOT-8B-Yio" kind="show" id="RDw-Hm-Ye9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -415,13 +401,36 @@
             </objects>
             <point key="canvasLocation" x="-582.44274809160299" y="-65.492957746478879"/>
         </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="EBn-Vt-DO8">
+            <objects>
+                <tabBarController storyboardIdentifier="MainTabBarController" automaticallyAdjustsScrollViewInsets="NO" id="51a-gQ-iac" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="lkg-3E-axH"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="a3Z-gm-RIj">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="tRY-iM-JbL" kind="relationship" relationship="viewControllers" id="efj-DC-ZA0"/>
+                        <segue destination="UIn-E8-oFx" kind="relationship" relationship="viewControllers" id="sIX-MP-GkD"/>
+                        <segue destination="jiw-Bj-5WW" kind="relationship" relationship="viewControllers" id="qVs-Kw-q15"/>
+                        <segue destination="Ijh-1L-96B" kind="relationship" relationship="viewControllers" id="hOD-qE-Tgq"/>
+                        <segue destination="15D-qG-lXw" kind="relationship" relationship="viewControllers" id="fep-re-wdH"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VfK-qQ-0w9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-289" y="662"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="house" catalog="system" width="128" height="104"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <image name="man health worker_" width="168" height="215"/>
         <image name="person.circle" catalog="system" width="128" height="123"/>
         <image name="pills" catalog="system" width="128" height="104"/>
         <image name="text.and.command.macwindow" catalog="system" width="128" height="93"/>
+        <image name="woman health worker_" width="153" height="230"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
