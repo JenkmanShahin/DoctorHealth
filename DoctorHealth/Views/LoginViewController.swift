@@ -71,8 +71,8 @@ class LoginViewController: UIViewController{
                
               
                 if  (user.email == email.text && user.password == password.text) {
-                    var brian = user
-                    print(brian.height)
+//                    var brian = user
+//                    print(brian.height)
                     
                   
                 }
