@@ -8,6 +8,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Item-->
+        <scene sceneID="hHw-Hi-ea5">
+            <objects>
+                <viewController id="wLY-86-KXj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ciY-Sb-iNu">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="zKv-PW-GSZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Fl3-ho-J0I"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9xN-cx-UnZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1969" y="662"/>
+        </scene>
         <!--Recipe-->
         <scene sceneID="kI2-G3-iac">
             <objects>
@@ -66,7 +82,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7YY-0q-nwe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2692.3664122137402" y="661.97183098591552"/>
+            <point key="canvasLocation" x="2679" y="662"/>
         </scene>
         <!--Home-->
         <scene sceneID="U8B-tF-HHq">
@@ -395,13 +411,13 @@
         <!--Medicine-->
         <scene sceneID="ewa-hE-c1W">
             <objects>
-                <viewController id="jiw-Bj-5WW" customClass="MedicineViewController" customModule="DoctorHealth" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jiw-Bj-5WW" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qn9-ti-d6O">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="vKt-oU-k8W">
-                                <rect key="frame" x="0.0" y="102" width="393" height="667"/>
+                                <rect key="frame" x="0.0" y="102" width="393" height="716"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="toAdd" rowHeight="80" id="zXw-OB-TPH">
@@ -496,7 +512,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DgO-Zb-xoD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2004" y="662"/>
+            <point key="canvasLocation" x="2005" y="1356"/>
         </scene>
         <!--Profile-->
         <scene sceneID="ZCN-a8-DMo">
@@ -512,7 +528,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cA8-aj-7S8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3437" y="662"/>
+            <point key="canvasLocation" x="3392" y="662"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="CGq-ZP-Pbv">
@@ -596,9 +612,9 @@
                     <connections>
                         <segue destination="tRY-iM-JbL" kind="relationship" relationship="viewControllers" id="efj-DC-ZA0"/>
                         <segue destination="UIn-E8-oFx" kind="relationship" relationship="viewControllers" id="sIX-MP-GkD"/>
-                        <segue destination="Ijh-1L-96B" kind="relationship" relationship="viewControllers" id="hOD-qE-Tgq"/>
-                        <segue destination="15D-qG-lXw" kind="relationship" relationship="viewControllers" id="fep-re-wdH"/>
-                        <segue destination="jiw-Bj-5WW" kind="relationship" relationship="viewControllers" id="sVr-p6-2i2"/>
+                        <segue destination="wLY-86-KXj" kind="relationship" relationship="viewControllers" id="Qo0-An-mRn"/>
+                        <segue destination="Ijh-1L-96B" kind="relationship" relationship="viewControllers" id="XnN-xB-Kp6"/>
+                        <segue destination="15D-qG-lXw" kind="relationship" relationship="viewControllers" id="Ufw-Ww-r6v"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VfK-qQ-0w9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
