@@ -17,19 +17,18 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         NotificationCenter.default.addObserver(self, selector: #selector(loginUser(_ :)), name: NSNotification.Name.init("login"), object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(loginUser(_ :)), name: NSNotification.Name.init("register"), object: nil)
-        
-        
+    }
+
+    @IBAction func buttonPressed(){
+        performSegue(withIdentifier: "show_details", sender: self)
     }
     
-   
-    
     override func viewDidAppear(_ animated: Bool) {
-        welcomeText.text = "Welcome \(user?.fullname ?? "king Brian")"
+        welcomeText.text = "Welcome \(user?.fullname ?? "")"
     }
     
     @objc func loginUser(_ notification: NSNotification){
-        if let x = notification.object as? User{
-            
+        if let x = notification.object as? User {
             user = x
             print(user?.fullname)
         } else {

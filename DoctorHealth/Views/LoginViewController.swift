@@ -20,7 +20,6 @@ class LoginViewController: UIViewController{
     var users: [User]!
     var logUser: User!
     
-    
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var loginButton: UIButton!
@@ -34,8 +33,6 @@ class LoginViewController: UIViewController{
         email.delegate = self
         password.delegate = self
         fetchUser()
-        
-        
     }
     
     //Dissmis Keyboard
@@ -45,12 +42,10 @@ class LoginViewController: UIViewController{
     
     func keyboardDismissable() {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self,
-                                                                 action: #selector(dismissKeyboardTouchOutside))
+        action: #selector(dismissKeyboardTouchOutside))
         tap.cancelsTouchesInView = false
         view.addGestureRecognizer(tap)
     }
-    
-   
     
     func fetchUser() {
         do {
@@ -69,18 +64,13 @@ class LoginViewController: UIViewController{
                 NotificationCenter.default.post(name: NSNotification.Name.init("login"), object: user)
                 (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
                
-              
                 if  (user.email == email.text && user.password == password.text) {
-//                    var brian = user
-//                    print(brian.height)
                     
                   
                 }
             }
         }
     }}
-    
-    
     
     //textField
     extension LoginViewController: UITextFieldDelegate{
@@ -92,7 +82,4 @@ class LoginViewController: UIViewController{
             }
             return true
         }
-    
     }
-
-

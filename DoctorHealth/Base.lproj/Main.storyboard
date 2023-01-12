@@ -137,7 +137,8 @@
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                                                 <connections>
-                                                                    <segue destination="in0-UC-wDR" kind="show" id="esL-PC-6Xf"/>
+                                                                    <action selector="buttonPressed" destination="tRY-iM-JbL" eventType="touchUpInside" id="LyC-b7-4tH"/>
+                                                                    <segue destination="in0-UC-wDR" kind="show" identifier="show_details" id="esL-PC-6Xf"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -270,7 +271,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kYE-F8-BZV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="542.74809160305347" y="661.97183098591552"/>
+            <point key="canvasLocation" x="543" y="662"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="eXE-8s-9X7">
@@ -601,7 +602,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="f0l-gv-yx7">
-                                <rect key="frame" x="16" y="298" width="361" height="177.33333333333337"/>
+                                <rect key="frame" x="16" y="298" width="361" height="40"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rdE-yn-P79">
                                         <rect key="frame" x="0.0" y="0.0" width="361" height="40"/>
@@ -615,32 +616,33 @@
                                             <action selector="AvailableAp_pressed:" destination="in0-UC-wDR" eventType="touchUpInside" id="D1L-9F-r0w"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FgQ-Wp-6GE">
-                                        <rect key="frame" x="0.0" y="40" width="361" height="34.333333333333343"/>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FgQ-Wp-6GE">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="0.0"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="Week1"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Week 1"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Week1"/>
                                         <connections>
                                             <action selector="weekBTNs_pressed:" destination="in0-UC-wDR" eventType="touchUpInside" id="gbB-XI-Uuk"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kNp-j0-sOV">
-                                        <rect key="frame" x="0.0" y="74.333333333333314" width="361" height="34.333333333333343"/>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kNp-j0-sOV">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="0.0"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Week 2"/>
                                         <connections>
                                             <action selector="weekBTNs_pressed:" destination="in0-UC-wDR" eventType="touchUpInside" id="BrS-g2-5O2"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HME-QO-JBW">
-                                        <rect key="frame" x="0.0" y="108.66666666666669" width="361" height="34.333333333333343"/>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HME-QO-JBW">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="0.0"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Week 3"/>
                                         <connections>
                                             <action selector="weekBTNs_pressed:" destination="in0-UC-wDR" eventType="touchUpInside" id="OOF-3C-iaT"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hgo-3d-9zs">
-                                        <rect key="frame" x="0.0" y="143" width="361" height="34.333333333333343"/>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hgo-3d-9zs">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="0.0"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Week 4"/>
                                         <connections>
@@ -712,16 +714,16 @@
                     <navigationItem key="navigationItem" id="pIT-nB-F58"/>
                     <connections>
                         <outlet property="ApointmantsView" destination="IGo-FI-CyY" id="gSx-om-bG4"/>
-                        <outlet property="availableAp" destination="rdE-yn-P79" id="rsE-eI-Lzr"/>
-                        <outletCollection property="aBTNs" destination="FgQ-Wp-6GE" collectionClass="NSMutableArray" id="c9t-yi-GQ3"/>
-                        <outletCollection property="aBTNs" destination="kNp-j0-sOV" collectionClass="NSMutableArray" id="rik-Xp-u1d"/>
-                        <outletCollection property="aBTNs" destination="HME-QO-JBW" collectionClass="NSMutableArray" id="zlb-fc-C3j"/>
-                        <outletCollection property="aBTNs" destination="Hgo-3d-9zs" collectionClass="NSMutableArray" id="SDv-vG-4dw"/>
+                        <outlet property="availableApBTN" destination="rdE-yn-P79" id="jfE-T7-p2j"/>
+                        <outletCollection property="weekBTNs" destination="FgQ-Wp-6GE" collectionClass="NSMutableArray" id="Mi0-7a-cF2"/>
+                        <outletCollection property="weekBTNs" destination="kNp-j0-sOV" collectionClass="NSMutableArray" id="1Ji-tb-4xY"/>
+                        <outletCollection property="weekBTNs" destination="HME-QO-JBW" collectionClass="NSMutableArray" id="St8-Yz-azX"/>
+                        <outletCollection property="weekBTNs" destination="Hgo-3d-9zs" collectionClass="NSMutableArray" id="uLt-Yp-r26"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ohj-Wt-tkm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="542.74809160305347" y="1512.6760563380283"/>
+            <point key="canvasLocation" x="543" y="1526"/>
         </scene>
         <!--Medicine-->
         <scene sceneID="ewa-hE-c1W">
