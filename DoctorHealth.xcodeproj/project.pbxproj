@@ -20,7 +20,9 @@
 		3B63117F2952FF00000D5A35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B63117E2952FF00000D5A35 /* Assets.xcassets */; };
 		3B6311822952FF00000D5A35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6311802952FF00000D5A35 /* LaunchScreen.storyboard */; };
 		3B6C9C01296D705E00BD407A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C9C00296D705E00BD407A /* SearchViewController.swift */; };
-		3B6C9C03296D9DA800BD407A /* NoNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C9C02296D9DA800BD407A /* NoNameViewController.swift */; };
+		3B6C9C03296D9DA800BD407A /* MedicineNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C9C02296D9DA800BD407A /* MedicineNameViewController.swift */; };
+		3B754FCA2971916900EA9D64 /* Teko-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B754FC92971916900EA9D64 /* Teko-Regular.ttf */; };
+		3B754FCC2971917700EA9D64 /* AbrilFatface-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B754FCB2971917700EA9D64 /* AbrilFatface-Regular.ttf */; };
 		3B98DB472966C65F006BD2C3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B98DB462966C65F006BD2C3 /* HomeViewController.swift */; };
 		3B98DB492966D43E006BD2C3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B98DB482966D43D006BD2C3 /* LoginViewController.swift */; };
 		3BE1E2C52965732900E6E2BA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1E2C42965732900E6E2BA /* RegisterViewController.swift */; };
@@ -43,7 +45,9 @@
 		3B6311812952FF00000D5A35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B6311832952FF00000D5A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B6C9C00296D705E00BD407A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		3B6C9C02296D9DA800BD407A /* NoNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNameViewController.swift; sourceTree = "<group>"; };
+		3B6C9C02296D9DA800BD407A /* MedicineNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineNameViewController.swift; sourceTree = "<group>"; };
+		3B754FC92971916900EA9D64 /* Teko-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Teko-Regular.ttf"; path = "../../../../../Downloads/Teko/Teko-Regular.ttf"; sourceTree = "<group>"; };
+		3B754FCB2971917700EA9D64 /* AbrilFatface-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AbrilFatface-Regular.ttf"; path = "../../../../../Downloads/Abril_Fatface/AbrilFatface-Regular.ttf"; sourceTree = "<group>"; };
 		3B98DB462966C65F006BD2C3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3B98DB482966D43D006BD2C3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3BE1E2C42965732900E6E2BA /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 		3B0CDF1529546DC700492E44 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				3B754FC92971916900EA9D64 /* Teko-Regular.ttf */,
+				3B754FCB2971917700EA9D64 /* AbrilFatface-Regular.ttf */,
 				3B0CDF1629546E2D00492E44 /* Quintessential-Regular.ttf */,
 				3B0CDF1A2954716F00492E44 /* Bungee-Regular.ttf */,
 			);
@@ -111,7 +117,7 @@
 				3B98DB482966D43D006BD2C3 /* LoginViewController.swift */,
 				3B98DB462966C65F006BD2C3 /* HomeViewController.swift */,
 				3B6C9C00296D705E00BD407A /* SearchViewController.swift */,
-				3B6C9C02296D9DA800BD407A /* NoNameViewController.swift */,
+				3B6C9C02296D9DA800BD407A /* MedicineNameViewController.swift */,
 				3B0039BD296F48CD0037B1E6 /* DocProfileViewController.swift */,
 				3B0039BF296F78C40037B1E6 /* ProfileViewController.swift */,
 			);
@@ -176,8 +182,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B754FCA2971916900EA9D64 /* Teko-Regular.ttf in Resources */,
 				3B6311822952FF00000D5A35 /* LaunchScreen.storyboard in Resources */,
 				3B63117F2952FF00000D5A35 /* Assets.xcassets in Resources */,
+				3B754FCC2971917700EA9D64 /* AbrilFatface-Regular.ttf in Resources */,
 				3B0CDF1729546E2D00492E44 /* Quintessential-Regular.ttf in Resources */,
 				3B63117A2952FF00000D5A35 /* Main.storyboard in Resources */,
 			);
@@ -193,7 +201,7 @@
 				3B6C9C01296D705E00BD407A /* SearchViewController.swift in Sources */,
 				3B98DB492966D43E006BD2C3 /* LoginViewController.swift in Sources */,
 				3B6311772952FF00000D5A35 /* ViewController.swift in Sources */,
-				3B6C9C03296D9DA800BD407A /* NoNameViewController.swift in Sources */,
+				3B6C9C03296D9DA800BD407A /* MedicineNameViewController.swift in Sources */,
 				3B98DB472966C65F006BD2C3 /* HomeViewController.swift in Sources */,
 				3BE1E2C52965732900E6E2BA /* RegisterViewController.swift in Sources */,
 				3B6311732952FF00000D5A35 /* AppDelegate.swift in Sources */,

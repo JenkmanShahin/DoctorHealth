@@ -7,7 +7,7 @@
 
 import UIKit
 
-class NoNameViewController: UIViewController{
+class MedicineViewController: UIViewController{
    
     @IBOutlet weak var tableView: UITableView!
     
@@ -39,7 +39,7 @@ class NoNameViewController: UIViewController{
         present(alert, animated: true)
     }
 }
-extension NoNameViewController: UITableViewDataSource, UITableViewDelegate{
+extension MedicineViewController: UITableViewDataSource, UITableViewDelegate{
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 2
