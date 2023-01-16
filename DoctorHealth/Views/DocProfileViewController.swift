@@ -32,9 +32,8 @@ class DocProfileViewController: UIViewController {
     }
 
     @IBAction func weekBTNs_pressed(_ sender: UIButton){
-//        showButtonVisibility()
         switch sender.titleLabel!.text{
-        case "Week1":
+        case "Week 1":
             availableApBTN.setTitle("Week 1", for: .normal)
         case "Week 2":
             availableApBTN.setTitle("Week 2", for: .normal)
@@ -43,7 +42,7 @@ class DocProfileViewController: UIViewController {
         case "Week 4":
             availableApBTN.setTitle("Week 4", for: .normal)
         default:
-            return
+            return 
         }
     }
 

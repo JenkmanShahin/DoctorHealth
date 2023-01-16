@@ -256,7 +256,7 @@
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FHJ-KY-nsY">
                                                         <rect key="frame" x="8" y="19" width="370" height="356"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <mutableString key="text">
+                                                        <string key="text">
 
                             
 
@@ -275,7 +275,7 @@ Monday – Friday
 7.30 – 13.00 Uhr
 
 Monday, Tuesday, Thursday
-15.00 – 18.00 Uhr</mutableString>
+15.00 – 18.00 Uhr</string>
                                                         <color key="textColor" systemColor="labelColor"/>
                                                         <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -687,7 +687,7 @@ Monday, Tuesday, Thursday
                                         </constraints>
                                         <color key="tintColor" red="0.21960783" green="0.41176474089999998" blue="0.55294120309999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Available Appointment This Month"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Available Appointments This Month"/>
                                         <connections>
                                             <action selector="AvailableAp_pressed:" destination="in0-UC-wDR" eventType="touchUpInside" id="D1L-9F-r0w"/>
                                         </connections>
@@ -696,7 +696,7 @@ Monday, Tuesday, Thursday
                                         <rect key="frame" x="0.0" y="0.0" width="361" height="0.0"/>
                                         <accessibility key="accessibilityConfiguration" identifier="Week1"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Week1"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Week 1"/>
                                         <connections>
                                             <action selector="weekBTNs_pressed:" destination="in0-UC-wDR" eventType="touchUpInside" id="gbB-XI-Uuk"/>
                                         </connections>
@@ -801,6 +801,22 @@ Monday, Tuesday, Thursday
             </objects>
             <point key="canvasLocation" x="543" y="1526"/>
         </scene>
+        <!--Details View Controller-->
+        <scene sceneID="1mE-ud-nIb">
+            <objects>
+                <viewController id="o4R-Rb-OL4" customClass="DetailsViewController" customModule="DoctorHealth" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="K24-UO-EwG">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="8qV-6q-kCc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="1Vr-g9-2fv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Jj-Gq-Sv2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1937" y="1387"/>
+        </scene>
         <!--Medicine-->
         <scene sceneID="ewa-hE-c1W">
             <objects>
@@ -813,45 +829,25 @@ Monday, Tuesday, Thursday
                                 <rect key="frame" x="0.0" y="144.66666666666669" width="393" height="624.33333333333326"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="toAdd" rowHeight="80" id="zXw-OB-TPH">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="80"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="planCell" id="HrB-Ks-YXz">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="45.333332061767578"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zXw-OB-TPH" id="pxa-38-Svd">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="80"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HrB-Ks-YXz" id="avZ-0e-FxG">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="45.333332061767578"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MLM-c4-ixZ">
-                                                    <rect key="frame" x="19.999999999999996" y="25" width="63.666666666666657" height="30"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4LM-Jf-SwS">
+                                                    <rect key="frame" x="20" y="10.999999999999998" width="353" height="23.333333333333329"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="MLM-c4-ixZ" firstAttribute="leading" secondItem="pxa-38-Svd" secondAttribute="leadingMargin" id="GeU-c0-F5g"/>
-                                                <constraint firstItem="MLM-c4-ixZ" firstAttribute="top" secondItem="pxa-38-Svd" secondAttribute="topMargin" constant="14" id="pj4-g0-2kY"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="MLM-c4-ixZ" secondAttribute="bottom" constant="14" id="qdp-Is-fVI"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="80" id="0XQ-kB-wah">
-                                        <rect key="frame" x="0.0" y="130" width="393" height="80"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0XQ-kB-wah" id="Nlh-8Z-qDw">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="80"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EEc-92-q6c">
-                                                    <rect key="frame" x="19.999999999999996" y="25" width="63.666666666666657" height="30"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="EEc-92-q6c" firstAttribute="leading" secondItem="Nlh-8Z-qDw" secondAttribute="leadingMargin" id="PKS-Kb-olq"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="EEc-92-q6c" secondAttribute="bottom" constant="14" id="hua-3z-vUx"/>
-                                                <constraint firstItem="EEc-92-q6c" firstAttribute="top" secondItem="Nlh-8Z-qDw" secondAttribute="topMargin" constant="14" id="mbD-Bh-bJc"/>
+                                                <constraint firstAttribute="bottom" secondItem="4LM-Jf-SwS" secondAttribute="bottom" constant="11" id="6sL-ba-D6e"/>
+                                                <constraint firstAttribute="trailing" secondItem="4LM-Jf-SwS" secondAttribute="trailing" constant="20" id="Bgf-GQ-4Xw"/>
+                                                <constraint firstItem="4LM-Jf-SwS" firstAttribute="top" secondItem="avZ-0e-FxG" secondAttribute="top" constant="11" id="LCt-lU-uez"/>
+                                                <constraint firstItem="4LM-Jf-SwS" firstAttribute="leading" secondItem="avZ-0e-FxG" secondAttribute="leading" constant="20" id="c7g-eH-lpe"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -902,12 +898,13 @@ Monday, Tuesday, Thursday
                     </view>
                     <tabBarItem key="tabBarItem" title="Medicine" image="pills" catalog="system" id="L2H-6u-fIP"/>
                     <connections>
-                        <outlet property="tableView" destination="vKt-oU-k8W" id="xed-4t-oa6"/>
+                        <outlet property="tableView" destination="vKt-oU-k8W" id="TdB-Qi-FN4"/>
+                        <segue destination="o4R-Rb-OL4" kind="presentation" identifier="showDetailSegue" id="l4U-LO-ZUX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DgO-Zb-xoD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1937" y="662"/>
+            <point key="canvasLocation" x="1936.6412213740457" y="661.97183098591552"/>
         </scene>
         <!--Profile-->
         <scene sceneID="ZCN-a8-DMo">

@@ -26,6 +26,7 @@
 		3B98DB472966C65F006BD2C3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B98DB462966C65F006BD2C3 /* HomeViewController.swift */; };
 		3B98DB492966D43E006BD2C3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B98DB482966D43D006BD2C3 /* LoginViewController.swift */; };
 		3BE1E2C52965732900E6E2BA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1E2C42965732900E6E2BA /* RegisterViewController.swift */; };
+		3BED1F852975B0F300F2967D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BED1F842975B0F300F2967D /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		3B98DB462966C65F006BD2C3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3B98DB482966D43D006BD2C3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3BE1E2C42965732900E6E2BA /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3BED1F842975B0F300F2967D /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				3B6C9C02296D9DA800BD407A /* MedicineNameViewController.swift */,
 				3B0039BD296F48CD0037B1E6 /* DocProfileViewController.swift */,
 				3B0039BF296F78C40037B1E6 /* ProfileViewController.swift */,
+				3BED1F842975B0F300F2967D /* DetailsViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				3B63117D2952FF00000D5A35 /* DoctorHealth.xcdatamodeld in Sources */,
 				3B1D427629685E62009DCA8A /* User+CoreDataClass.swift in Sources */,
 				3B0039C0296F78C40037B1E6 /* ProfileViewController.swift in Sources */,
+				3BED1F852975B0F300F2967D /* DetailsViewController.swift in Sources */,
 				3B6311752952FF00000D5A35 /* SceneDelegate.swift in Sources */,
 				3B1D427729685E62009DCA8A /* User+CoreDataProperties.swift in Sources */,
 			);
