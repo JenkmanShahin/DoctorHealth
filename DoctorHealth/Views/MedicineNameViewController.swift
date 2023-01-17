@@ -20,10 +20,7 @@ class MedicineViewController: UIViewController{
     
     @IBOutlet weak var tableView: UITableView!
     
-    var plan = [Plan(name: "IbuBrufen", morning: "String?", noon: "", evening: ""),
-                Plan(name: "", morning: "String?", noon: "", evening: ""),
-                Plan(name: "", morning: "String?", noon: "", evening: "")
-    ]
+    var plan = [Plan(name: "IbuBrufen", morning: "String?", noon: "", evening: "")]
     
     
     override func viewDidLoad() {
@@ -45,7 +42,8 @@ class MedicineViewController: UIViewController{
         alert.addAction(UIAlertAction(title: "Add", style: .default, handler: {(_)
             in
             let text = alert.textFields?.first?.text
-            self.plan.append(text!)
+            let newPlan = Plan(name: text, morning: "", noon: "", evening: "")
+            self.plan.append(newPlan)
             self.tableView.reloadData()
         }))
         present(alert, animated: true)

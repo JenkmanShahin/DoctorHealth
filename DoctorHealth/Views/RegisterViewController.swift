@@ -5,16 +5,6 @@
 //  Created by jenkman Shahin on 04.01.23.
 //
 
-//struct User {
-//    var fullname: String
-//    var email: String
-//    var birthdate: String
-//    var height: Int
-//    var weight: Int
-//    var gender: String
-//    var password: String
-//}
-
 
 import UIKit
 
