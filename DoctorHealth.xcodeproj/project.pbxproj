@@ -25,6 +25,7 @@
 		3B754FCC2971917700EA9D64 /* AbrilFatface-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B754FCB2971917700EA9D64 /* AbrilFatface-Regular.ttf */; };
 		3B98DB472966C65F006BD2C3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B98DB462966C65F006BD2C3 /* HomeViewController.swift */; };
 		3B98DB492966D43E006BD2C3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B98DB482966D43D006BD2C3 /* LoginViewController.swift */; };
+		3BB5CE23298097D8008D3428 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB5CE22298097D8008D3428 /* testViewController.swift */; };
 		3BE1E2C52965732900E6E2BA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1E2C42965732900E6E2BA /* RegisterViewController.swift */; };
 		3BED1F852975B0F300F2967D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BED1F842975B0F300F2967D /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,7 @@
 		3B754FCB2971917700EA9D64 /* AbrilFatface-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AbrilFatface-Regular.ttf"; path = "../../../../../Downloads/Abril_Fatface/AbrilFatface-Regular.ttf"; sourceTree = "<group>"; };
 		3B98DB462966C65F006BD2C3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3B98DB482966D43D006BD2C3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3BB5CE22298097D8008D3428 /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
 		3BE1E2C42965732900E6E2BA /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		3BED1F842975B0F300F2967D /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +125,7 @@
 				3B0039BD296F48CD0037B1E6 /* DocProfileViewController.swift */,
 				3B0039BF296F78C40037B1E6 /* ProfileViewController.swift */,
 				3BED1F842975B0F300F2967D /* DetailsViewController.swift */,
+				3BB5CE22298097D8008D3428 /* testViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				3B6C9C01296D705E00BD407A /* SearchViewController.swift in Sources */,
 				3B98DB492966D43E006BD2C3 /* LoginViewController.swift in Sources */,
 				3B6311772952FF00000D5A35 /* ViewController.swift in Sources */,
+				3BB5CE23298097D8008D3428 /* testViewController.swift in Sources */,
 				3B6C9C03296D9DA800BD407A /* MedicineNameViewController.swift in Sources */,
 				3B98DB472966C65F006BD2C3 /* HomeViewController.swift in Sources */,
 				3BE1E2C52965732900E6E2BA /* RegisterViewController.swift in Sources */,

@@ -121,11 +121,11 @@
                                                         <rect key="frame" x="32" y="73" width="140" height="201"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="man health worker_" translatesAutoresizingMaskIntoConstraints="NO" id="cgn-7i-39J">
-                                                                <rect key="frame" x="0.0" y="0.0" width="140" height="129.33333333333334"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="140" height="130"/>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr.Tim" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nfS-M2-bwE">
-                                                                <rect key="frame" x="0.0" y="129.33333333333337" width="140" height="20.333333333333343"/>
-                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                                <rect key="frame" x="0.0" y="130" width="140" height="19.666666666666657"/>
+                                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -146,7 +146,7 @@
                                                                 </buttonConfiguration>
                                                                 <connections>
                                                                     <action selector="buttonPressed" destination="tRY-iM-JbL" eventType="touchUpInside" id="LyC-b7-4tH"/>
-                                                                    <segue destination="in0-UC-wDR" kind="show" identifier="show_details" id="esL-PC-6Xf"/>
+                                                                    <segue destination="xSp-EZ-VMk" kind="show" identifier="show_details" id="DR5-dy-nBo"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -166,7 +166,7 @@
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="20.329999999999998" id="Sya-3P-I7f"/>
                                                                 </constraints>
-                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -182,6 +182,9 @@
                                                                 <buttonConfiguration key="configuration" style="filled" title="Show Detalis">
                                                                     <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="0.0"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <segue destination="xSp-EZ-VMk" kind="show" id="J9Z-Fv-rKn"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -194,11 +197,11 @@
                                                         <rect key="frame" x="224" y="73" width="140" height="201"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="woman health worker_" translatesAutoresizingMaskIntoConstraints="NO" id="E6b-kk-rwo">
-                                                                <rect key="frame" x="0.0" y="0.0" width="140" height="129.33333333333334"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="140" height="130"/>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr.Sara" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zY0-CT-mC7">
-                                                                <rect key="frame" x="0.0" y="129.33333333333337" width="140" height="20.333333333333343"/>
-                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                                <rect key="frame" x="0.0" y="130" width="140" height="19.666666666666657"/>
+                                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -217,6 +220,9 @@
                                                                 <buttonConfiguration key="configuration" style="filled" title="Show Detalis">
                                                                     <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="0.0"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <segue destination="xSp-EZ-VMk" kind="show" id="1pC-uH-56j"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -637,6 +643,121 @@ Monday, Tuesday, Thursday
             </objects>
             <point key="canvasLocation" x="1228.2442748091603" y="661.97183098591552"/>
         </scene>
+        <!--Test View Controller-->
+        <scene sceneID="QVW-4Q-cLv">
+            <objects>
+                <viewController id="xSp-EZ-VMk" customClass="testViewController" customModule="DoctorHealth" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xVi-dm-Poq">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aqs-wu-mUD">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="Cel-qO-Xu8">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1409"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IXA-qt-Wqa">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="700"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doctors Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hLn-At-74a">
+                                                        <rect key="frame" x="132" y="89" width="142.66666666666663" height="23.333333333333329"/>
+                                                        <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="NHT-FT-qIZ">
+                                                        <rect key="frame" x="13" y="120" width="367" height="144"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="man health worker_" translatesAutoresizingMaskIntoConstraints="NO" id="xSz-ny-oF8">
+                                                                <rect key="frame" x="0.0" y="0.0" width="123" height="144"/>
+                                                            </imageView>
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="h1L-ZI-fXn">
+                                                                <rect key="frame" x="132" y="0.0" width="235" height="144"/>
+                                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                                <color key="textColor" systemColor="labelColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                            </textView>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="hLn-At-74a" firstAttribute="top" secondItem="IXA-qt-Wqa" secondAttribute="top" constant="89" id="PmP-ig-t6b"/>
+                                                    <constraint firstItem="NHT-FT-qIZ" firstAttribute="top" secondItem="hLn-At-74a" secondAttribute="bottom" constant="7.6699999999999999" id="Pt6-5c-crP"/>
+                                                    <constraint firstAttribute="height" constant="700" id="ePT-T3-tLd"/>
+                                                    <constraint firstItem="hLn-At-74a" firstAttribute="leading" secondItem="IXA-qt-Wqa" secondAttribute="leading" constant="132" id="loy-w8-W93"/>
+                                                    <constraint firstItem="NHT-FT-qIZ" firstAttribute="leading" secondItem="IXA-qt-Wqa" secondAttribute="leading" constant="13" id="ndd-kJ-0qd"/>
+                                                    <constraint firstAttribute="trailing" secondItem="NHT-FT-qIZ" secondAttribute="trailing" constant="13" id="q4D-Nw-cmu"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oH5-Bf-WaU">
+                                                <rect key="frame" x="0.0" y="709" width="393" height="700"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doctors Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8lm-vI-cFV">
+                                                        <rect key="frame" x="132" y="89" width="142.66666666666663" height="23.333333333333329"/>
+                                                        <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="lNn-yC-Oxf">
+                                                        <rect key="frame" x="13" y="120" width="367" height="144"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="man health worker_" translatesAutoresizingMaskIntoConstraints="NO" id="Ygg-zs-YIr">
+                                                                <rect key="frame" x="0.0" y="0.0" width="123" height="144"/>
+                                                            </imageView>
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rSt-3J-s7S">
+                                                                <rect key="frame" x="132" y="0.0" width="235" height="144"/>
+                                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                                <color key="textColor" systemColor="labelColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                            </textView>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="8lm-vI-cFV" firstAttribute="top" secondItem="oH5-Bf-WaU" secondAttribute="top" constant="89" id="31F-WW-Jgj"/>
+                                                    <constraint firstAttribute="trailing" secondItem="lNn-yC-Oxf" secondAttribute="trailing" constant="13" id="G8M-Et-Bxr"/>
+                                                    <constraint firstItem="lNn-yC-Oxf" firstAttribute="leading" secondItem="oH5-Bf-WaU" secondAttribute="leading" constant="13" id="HaG-Lo-HhR"/>
+                                                    <constraint firstAttribute="height" constant="700" id="gr3-su-jfU"/>
+                                                    <constraint firstItem="lNn-yC-Oxf" firstAttribute="top" secondItem="8lm-vI-cFV" secondAttribute="bottom" constant="7.6699999999999999" id="rXC-5h-Qbi"/>
+                                                    <constraint firstItem="8lm-vI-cFV" firstAttribute="leading" secondItem="oH5-Bf-WaU" secondAttribute="leading" constant="132" id="rie-Qt-rm0"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Cel-qO-Xu8" firstAttribute="width" secondItem="OCt-tP-GAF" secondAttribute="width" id="HPs-S9-kCm"/>
+                                    <constraint firstItem="Cel-qO-Xu8" firstAttribute="trailing" secondItem="Cpg-hd-pUp" secondAttribute="trailing" id="N4I-JL-5SM"/>
+                                    <constraint firstItem="Cel-qO-Xu8" firstAttribute="bottom" secondItem="Cpg-hd-pUp" secondAttribute="bottom" id="fHp-lF-QAv"/>
+                                    <constraint firstItem="Cel-qO-Xu8" firstAttribute="leading" secondItem="Cpg-hd-pUp" secondAttribute="leading" id="laa-RV-NZ4"/>
+                                    <constraint firstItem="Cel-qO-Xu8" firstAttribute="top" secondItem="Cpg-hd-pUp" secondAttribute="top" id="m7K-A0-7L0"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Cpg-hd-pUp"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="OCt-tP-GAF"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2Ue-Hu-W22"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aqs-wu-mUD" firstAttribute="top" secondItem="xVi-dm-Poq" secondAttribute="top" id="U22-YR-ysw"/>
+                            <constraint firstItem="aqs-wu-mUD" firstAttribute="trailing" secondItem="2Ue-Hu-W22" secondAttribute="trailing" id="cCh-Q7-70T"/>
+                            <constraint firstAttribute="bottom" secondItem="aqs-wu-mUD" secondAttribute="bottom" id="oTu-R0-MMx"/>
+                            <constraint firstItem="aqs-wu-mUD" firstAttribute="leading" secondItem="2Ue-Hu-W22" secondAttribute="leading" id="zpS-I6-2Jq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="iE5-wh-e99"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l68-Od-EGh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-564.12213740458014" y="1583.8028169014085"/>
+        </scene>
         <!--Doc Profile View Controller-->
         <scene sceneID="BCS-3O-3wh">
             <objects>
@@ -646,7 +767,7 @@ Monday, Tuesday, Thursday
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="nVz-K5-iWO">
-                                <rect key="frame" x="16" y="147" width="362" height="170"/>
+                                <rect key="frame" x="16" y="102.33333333333331" width="362" height="170"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="man health worker_" translatesAutoresizingMaskIntoConstraints="NO" id="MIB-gN-wWh">
                                         <rect key="frame" x="0.0" y="0.0" width="130" height="170"/>
@@ -668,13 +789,13 @@ Monday, Tuesday, Thursday
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doctors Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W4r-nh-y1D">
-                                <rect key="frame" x="123" y="113" width="147" height="24"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <rect key="frame" x="123" y="69" width="147" height="23.333333333333329"/>
+                                <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="f0l-gv-yx7">
-                                <rect key="frame" x="16" y="342" width="361" height="40"/>
+                                <rect key="frame" x="16" y="297.33333333333331" width="361" height="40"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rdE-yn-P79">
                                         <rect key="frame" x="0.0" y="0.0" width="361" height="40"/>
@@ -761,6 +882,51 @@ Monday, Tuesday, Thursday
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6hc-uz-7AF">
+                                        <rect key="frame" x="183" y="0.0" width="60" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="8:30"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6UE-ry-c6V">
+                                        <rect key="frame" x="275" y="0.0" width="60" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="8:30"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UMU-jp-8cy">
+                                        <rect key="frame" x="76" y="40" width="90" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <string key="title">8:30
+24.01.23</string>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Too-dc-Sk5">
+                                        <rect key="frame" x="91" y="99" width="60" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="8:30"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tve-jK-lvN">
+                                        <rect key="frame" x="183" y="99" width="60" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="8:30"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9x-pX-atq">
+                                        <rect key="frame" x="91" y="200" width="60" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="8:30"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ORk-D2-WwK">
+                                        <rect key="frame" x="91" y="0.0" width="60" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="8:30"/>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
@@ -795,7 +961,7 @@ Monday, Tuesday, Thursday
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ohj-Wt-tkm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="543" y="1526"/>
+            <point key="canvasLocation" x="121" y="1584"/>
         </scene>
         <!--Details View Controller-->
         <scene sceneID="1mE-ud-nIb">
@@ -848,11 +1014,11 @@ Monday, Tuesday, Thursday
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="syP-0W-hZF">
                                 <rect key="frame" x="30" y="663" width="333" height="32"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Choose">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="15"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Save">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="choose" destination="o4R-Rb-OL4" eventType="touchUpInside" id="M5r-7X-hIg"/>
+                                    <action selector="save" destination="o4R-Rb-OL4" eventType="touchUpInside" id="e4Y-Re-JKK"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mX0-wa-eII">
@@ -895,11 +1061,12 @@ Monday, Tuesday, Thursday
                         <outlet property="eviningField" destination="0SD-UW-f7b" id="pDd-QY-mWJ"/>
                         <outlet property="morningField" destination="mX0-wa-eII" id="ogT-13-YUV"/>
                         <outlet property="noonField" destination="NbZ-mf-LQ3" id="SqQ-PH-0md"/>
+                        <outlet property="tabletName" destination="reZ-nw-Ntn" id="4fv-oz-eaT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Jj-Gq-Sv2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1958" y="1343"/>
+            <point key="canvasLocation" x="1937" y="1379"/>
         </scene>
         <!--Medicine-->
         <scene sceneID="ewa-hE-c1W">
@@ -1137,6 +1304,9 @@ Monday, Tuesday, Thursday
             <point key="canvasLocation" x="-289" y="662"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="DR5-dy-nBo"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Kassenrezept_Muster" width="1200" height="851"/>
         <image name="chevron.left" catalog="system" width="97" height="128"/>
@@ -1155,6 +1325,9 @@ Monday, Tuesday, Thursday
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

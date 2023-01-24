@@ -52,6 +52,10 @@ class MedicineViewController: UIViewController{
 
 extension MedicineViewController: UITableViewDataSource, UITableViewDelegate{
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 20
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return plan.count
     }
