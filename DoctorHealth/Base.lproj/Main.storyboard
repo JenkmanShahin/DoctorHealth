@@ -146,7 +146,6 @@
                                                                 </buttonConfiguration>
                                                                 <connections>
                                                                     <action selector="buttonPressed" destination="tRY-iM-JbL" eventType="touchUpInside" id="LyC-b7-4tH"/>
-                                                                    <segue destination="xSp-EZ-VMk" kind="show" identifier="show_details" id="DR5-dy-nBo"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -182,9 +181,6 @@
                                                                 <buttonConfiguration key="configuration" style="filled" title="Show Detalis">
                                                                     <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="0.0"/>
                                                                 </buttonConfiguration>
-                                                                <connections>
-                                                                    <segue destination="xSp-EZ-VMk" kind="show" id="J9Z-Fv-rKn"/>
-                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -220,9 +216,6 @@
                                                                 <buttonConfiguration key="configuration" style="filled" title="Show Detalis">
                                                                     <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="0.0"/>
                                                                 </buttonConfiguration>
-                                                                <connections>
-                                                                    <segue destination="xSp-EZ-VMk" kind="show" id="1pC-uH-56j"/>
-                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -339,6 +332,7 @@ Monday, Tuesday, Thursday
                     <navigationItem key="navigationItem" id="1DI-oN-zwZ"/>
                     <connections>
                         <outlet property="welcomeText" destination="vgm-Wr-h05" id="76M-Aq-Dj5"/>
+                        <segue destination="xSp-EZ-VMk" kind="show" identifier="show_details" id="4eE-5D-sde"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kYE-F8-BZV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -932,6 +926,9 @@ Monday, Tuesday, Thursday
                     </view>
                     <navigationItem key="navigationItem" title="Doctors Profile" id="iE5-wh-e99"/>
                     <connections>
+                        <outlet property="day" destination="bFA-ZX-mM0" id="2uM-fc-6dp"/>
+                        <outlet property="doctorDescription" destination="vSv-ut-HH5" id="f5g-9R-lwK"/>
+                        <outlet property="doctorImage" destination="OpZ-or-2jg" id="O0C-hL-BHW"/>
                         <outlet property="doctorName" destination="Efg-1G-zMu" id="haP-iw-ddZ"/>
                     </connections>
                 </viewController>
@@ -1567,9 +1564,6 @@ Monday, Tuesday, Thursday
             <point key="canvasLocation" x="-289" y="662"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="1pC-uH-56j"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="Kassenrezept_Muster" width="1200" height="851"/>
         <image name="Rectangle 548" width="266" height="463"/>

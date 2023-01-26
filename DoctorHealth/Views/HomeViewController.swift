@@ -22,7 +22,6 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         creatDoctors()
-        print(doctor1)
         
         
         NotificationCenter.default.addObserver(self, selector: #selector(loginUser(_ :)), name: NSNotification.Name.init("login"), object: nil)
@@ -30,16 +29,16 @@ class HomeViewController: UIViewController {
     }
     
     func creatDoctors(){
-        doctor1 = Doctor(context: context)
+        doctor1 = Doctor(context: self.context)
         doctor1.name = "Dr.Tim"
         doctor1.desText = ""
         doctor1.image = ""
-        let termin1 = Termine(context: context)
+        let termin1 = Termine(context: self.context)
         termin1.day = "Montag"
         termin1.termin = ["08:30","10:00","14:00"]
         doctor1.addToTermin(termin1)
         
-        try! context.save()
+        try! self.context.save()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
