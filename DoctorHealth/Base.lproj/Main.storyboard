@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="51a-gQ-iac">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ll4-hD-Khd">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -258,7 +258,7 @@
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FHJ-KY-nsY">
                                                         <rect key="frame" x="8" y="19" width="370" height="356"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <mutableString key="text">
+                                                        <string key="text">
 
                             
 
@@ -277,7 +277,7 @@ Monday – Friday
 7.30 – 13.00 Uhr
 
 Monday, Tuesday, Thursday
-15.00 – 18.00 Uhr</mutableString>
+15.00 – 18.00 Uhr</string>
                                                         <color key="textColor" systemColor="labelColor"/>
                                                         <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -718,7 +718,7 @@ Monday, Tuesday, Thursday
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ZUD-i7-S5n">
-                                                        <rect key="frame" x="21" y="341" width="332" height="30.333333333333314"/>
+                                                        <rect key="frame" x="21" y="341" width="196" height="30.333333333333314"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="right" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XqS-sl-rQp">
                                                                 <rect key="frame" x="0.0" y="0.0" width="60" height="30.333333333333332"/>
@@ -753,32 +753,10 @@ Monday, Tuesday, Thursday
                                                                     <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="10"/>
                                                                 </buttonConfiguration>
                                                             </button>
-                                                            <button opaque="NO" contentMode="right" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgJ-u8-q4Z">
-                                                                <rect key="frame" x="204" y="0.0" width="60" height="30.333333333333332"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="31i-gZ-2nU"/>
-                                                                    <constraint firstAttribute="height" constant="30.329999999999998" id="izd-PW-RuY"/>
-                                                                </constraints>
-                                                                <color key="tintColor" red="0.308728591" green="0.308728591" blue="0.308728591" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <buttonConfiguration key="configuration" style="filled" title="14:30" subtitle="">
-                                                                    <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="10"/>
-                                                                </buttonConfiguration>
-                                                            </button>
-                                                            <button opaque="NO" contentMode="right" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D7Y-Nj-pAm">
-                                                                <rect key="frame" x="272" y="0.0" width="60" height="30.333333333333332"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="height" constant="30.329999999999998" id="9s2-hE-gxd"/>
-                                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="qaF-cq-RzM"/>
-                                                                </constraints>
-                                                                <color key="tintColor" red="0.308728591" green="0.308728591" blue="0.308728591" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <buttonConfiguration key="configuration" style="filled" title="15:00" subtitle="">
-                                                                    <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="10"/>
-                                                                </buttonConfiguration>
-                                                            </button>
                                                         </subviews>
                                                     </stackView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. Tim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Efg-1G-zMu">
-                                                        <rect key="frame" x="159" y="20" width="74.666666666666686" height="23.333333333333329"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Efg-1G-zMu">
+                                                        <rect key="frame" x="159" y="20" width="87.333333333333314" height="23.333333333333329"/>
                                                         <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="20"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -843,10 +821,10 @@ Monday, Tuesday, Thursday
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="w6L-rT-Yhg">
-                                                        <rect key="frame" x="21" y="272" width="273.33333333333331" height="30.333333333333314"/>
+                                                        <rect key="frame" x="21" y="272" width="196" height="30.333333333333314"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="right" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XdX-lo-A9P">
-                                                                <rect key="frame" x="0.0" y="0.0" width="62.333333333333336" height="30.333333333333332"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="60" height="30.333333333333332"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="FLa-ls-3CN"/>
                                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30.329999999999998" id="re4-1p-pii"/>
@@ -856,24 +834,17 @@ Monday, Tuesday, Thursday
                                                                     <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="10"/>
                                                                 </buttonConfiguration>
                                                             </button>
-                                                            <button opaque="NO" contentMode="right" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BaW-xM-ThP">
-                                                                <rect key="frame" x="70.333333333333329" y="0.0" width="62.333333333333329" height="30.333333333333332"/>
+                                                            <button opaque="NO" contentMode="right" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BaW-xM-ThP">
+                                                                <rect key="frame" x="68" y="0.0" width="60" height="30.333333333333332"/>
                                                                 <color key="tintColor" red="0.308728591" green="0.308728591" blue="0.308728591" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <buttonConfiguration key="configuration" style="filled" title="10:30" subtitle="">
                                                                     <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="10"/>
                                                                 </buttonConfiguration>
                                                             </button>
-                                                            <button opaque="NO" contentMode="right" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdn-OK-YjU">
-                                                                <rect key="frame" x="140.66666666666666" y="0.0" width="62.333333333333343" height="30.333333333333332"/>
+                                                            <button opaque="NO" contentMode="right" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdn-OK-YjU">
+                                                                <rect key="frame" x="136" y="0.0" width="60" height="30.333333333333332"/>
                                                                 <color key="tintColor" red="0.308728591" green="0.308728591" blue="0.308728591" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <buttonConfiguration key="configuration" style="filled" title="14:00" subtitle="">
-                                                                    <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="10"/>
-                                                                </buttonConfiguration>
-                                                            </button>
-                                                            <button opaque="NO" contentMode="right" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ye2-3W-EpQ">
-                                                                <rect key="frame" x="211" y="0.0" width="62.333333333333314" height="30.333333333333332"/>
-                                                                <color key="tintColor" red="0.308728591" green="0.308728591" blue="0.308728591" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <buttonConfiguration key="configuration" style="filled" title="016:30" subtitle="">
                                                                     <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="10"/>
                                                                 </buttonConfiguration>
                                                             </button>
@@ -960,6 +931,9 @@ Monday, Tuesday, Thursday
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Doctors Profile" id="iE5-wh-e99"/>
+                    <connections>
+                        <outlet property="doctorName" destination="Efg-1G-zMu" id="haP-iw-ddZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l68-Od-EGh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <view contentMode="scaleToFill" id="Bxa-y7-9gX">
@@ -1020,7 +994,7 @@ Monday, Tuesday, Thursday
                     </constraints>
                 </view>
                 <stackView opaque="NO" contentMode="scaleToFill" spacing="5" id="r5u-GP-BpB">
-                    <rect key="frame" x="0.0" y="0.0" width="295" height="34.333333333333314"/>
+                    <rect key="frame" x="0.0" y="0.0" width="295" height="34.333333333333336"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <button opaque="NO" contentMode="right" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GMr-BX-udz">
@@ -1043,7 +1017,7 @@ Monday, Tuesday, Thursday
                     <viewLayoutGuide key="safeArea" id="xzi-jK-XsS"/>
                 </stackView>
             </objects>
-            <point key="canvasLocation" x="-564.12213740458014" y="1583.8028169014085"/>
+            <point key="canvasLocation" x="543" y="1369"/>
         </scene>
         <!--Doc Profile View Controller-->
         <scene sceneID="BCS-3O-3wh">
@@ -1250,7 +1224,7 @@ Monday, Tuesday, Thursday
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ohj-Wt-tkm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="121" y="1584"/>
+            <point key="canvasLocation" x="2773" y="1489"/>
         </scene>
         <!--Details View Controller-->
         <scene sceneID="1mE-ud-nIb">
@@ -1355,7 +1329,7 @@ Monday, Tuesday, Thursday
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Jj-Gq-Sv2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1937" y="1379"/>
+            <point key="canvasLocation" x="1880" y="1415"/>
         </scene>
         <!--Medicine-->
         <scene sceneID="ewa-hE-c1W">
@@ -1594,7 +1568,7 @@ Monday, Tuesday, Thursday
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="DR5-dy-nBo"/>
+        <segue reference="1pC-uH-56j"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Kassenrezept_Muster" width="1200" height="851"/>

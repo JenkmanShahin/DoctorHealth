@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B0039832982AE0F00CD3CEB /* Termine+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B00397F2982AE0F00CD3CEB /* Termine+CoreDataClass.swift */; };
+		3B0039842982AE0F00CD3CEB /* Termine+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0039802982AE0F00CD3CEB /* Termine+CoreDataProperties.swift */; };
+		3B0039852982AE0F00CD3CEB /* Doctor+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0039812982AE0F00CD3CEB /* Doctor+CoreDataClass.swift */; };
+		3B0039862982AE0F00CD3CEB /* Doctor+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0039822982AE0F00CD3CEB /* Doctor+CoreDataProperties.swift */; };
 		3B0039BE296F48CD0037B1E6 /* DocProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0039BD296F48CD0037B1E6 /* DocProfileViewController.swift */; };
 		3B0039C0296F78C40037B1E6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0039BF296F78C40037B1E6 /* ProfileViewController.swift */; };
 		3B0CDF1729546E2D00492E44 /* Quintessential-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B0CDF1629546E2D00492E44 /* Quintessential-Regular.ttf */; };
@@ -31,6 +35,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B00397F2982AE0F00CD3CEB /* Termine+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Termine+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3B0039802982AE0F00CD3CEB /* Termine+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Termine+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3B0039812982AE0F00CD3CEB /* Doctor+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Doctor+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3B0039822982AE0F00CD3CEB /* Doctor+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Doctor+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3B0039BD296F48CD0037B1E6 /* DocProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocProfileViewController.swift; sourceTree = "<group>"; };
 		3B0039BF296F78C40037B1E6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3B0CDF1629546E2D00492E44 /* Quintessential-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quintessential-Regular.ttf"; sourceTree = "<group>"; };
@@ -82,6 +90,10 @@
 		3B6311662952FF00000D5A35 = {
 			isa = PBXGroup;
 			children = (
+				3B00397F2982AE0F00CD3CEB /* Termine+CoreDataClass.swift */,
+				3B0039802982AE0F00CD3CEB /* Termine+CoreDataProperties.swift */,
+				3B0039812982AE0F00CD3CEB /* Doctor+CoreDataClass.swift */,
+				3B0039822982AE0F00CD3CEB /* Doctor+CoreDataProperties.swift */,
 				3B1D427429685E62009DCA8A /* User+CoreDataClass.swift */,
 				3B1D427529685E62009DCA8A /* User+CoreDataProperties.swift */,
 				3B6311712952FF00000D5A35 /* DoctorHealth */,
@@ -204,20 +216,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B0039852982AE0F00CD3CEB /* Doctor+CoreDataClass.swift in Sources */,
 				3B6C9C01296D705E00BD407A /* SearchViewController.swift in Sources */,
 				3B98DB492966D43E006BD2C3 /* LoginViewController.swift in Sources */,
 				3B6311772952FF00000D5A35 /* ViewController.swift in Sources */,
 				3BB5CE23298097D8008D3428 /* testViewController.swift in Sources */,
 				3B6C9C03296D9DA800BD407A /* MedicineNameViewController.swift in Sources */,
+				3B0039862982AE0F00CD3CEB /* Doctor+CoreDataProperties.swift in Sources */,
 				3B98DB472966C65F006BD2C3 /* HomeViewController.swift in Sources */,
 				3BE1E2C52965732900E6E2BA /* RegisterViewController.swift in Sources */,
 				3B6311732952FF00000D5A35 /* AppDelegate.swift in Sources */,
 				3B0039BE296F48CD0037B1E6 /* DocProfileViewController.swift in Sources */,
 				3B63117D2952FF00000D5A35 /* DoctorHealth.xcdatamodeld in Sources */,
 				3B1D427629685E62009DCA8A /* User+CoreDataClass.swift in Sources */,
+				3B0039842982AE0F00CD3CEB /* Termine+CoreDataProperties.swift in Sources */,
 				3B0039C0296F78C40037B1E6 /* ProfileViewController.swift in Sources */,
 				3BED1F852975B0F300F2967D /* DetailsViewController.swift in Sources */,
 				3B6311752952FF00000D5A35 /* SceneDelegate.swift in Sources */,
+				3B0039832982AE0F00CD3CEB /* Termine+CoreDataClass.swift in Sources */,
 				3B1D427729685E62009DCA8A /* User+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
