@@ -34,6 +34,7 @@
 		3B6C9C03296D9DA800BD407A /* MedicineNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C9C02296D9DA800BD407A /* MedicineNameViewController.swift */; };
 		3B754FCA2971916900EA9D64 /* Teko-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B754FC92971916900EA9D64 /* Teko-Regular.ttf */; };
 		3B754FCC2971917700EA9D64 /* AbrilFatface-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B754FCB2971917700EA9D64 /* AbrilFatface-Regular.ttf */; };
+		3B9697222987D2C900EC36D4 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9697212987D2C900EC36D4 /* ArticleViewController.swift */; };
 		3B98DB472966C65F006BD2C3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B98DB462966C65F006BD2C3 /* HomeViewController.swift */; };
 		3B98DB492966D43E006BD2C3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B98DB482966D43D006BD2C3 /* LoginViewController.swift */; };
 		3BB5CE23298097D8008D3428 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB5CE22298097D8008D3428 /* testViewController.swift */; };
@@ -72,6 +73,7 @@
 		3B6C9C02296D9DA800BD407A /* MedicineNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineNameViewController.swift; sourceTree = "<group>"; };
 		3B754FC92971916900EA9D64 /* Teko-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Teko-Regular.ttf"; path = "../../../../../Downloads/Teko/Teko-Regular.ttf"; sourceTree = "<group>"; };
 		3B754FCB2971917700EA9D64 /* AbrilFatface-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AbrilFatface-Regular.ttf"; path = "../../../../../Downloads/Abril_Fatface/AbrilFatface-Regular.ttf"; sourceTree = "<group>"; };
+		3B9697212987D2C900EC36D4 /* ArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
 		3B98DB462966C65F006BD2C3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3B98DB482966D43D006BD2C3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3BB5CE22298097D8008D3428 /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				3BED1F842975B0F300F2967D /* DetailsViewController.swift */,
 				3BB5CE22298097D8008D3428 /* testViewController.swift */,
 				3B5E8D8C298719F30013A1B0 /* NewsViewController.swift */,
+				3B9697212987D2C900EC36D4 /* ArticleViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				3B6C9C03296D9DA800BD407A /* MedicineNameViewController.swift in Sources */,
 				3B27C6702984173C00D22C43 /* User+CoreDataClass.swift in Sources */,
 				3B98DB472966C65F006BD2C3 /* HomeViewController.swift in Sources */,
+				3B9697222987D2C900EC36D4 /* ArticleViewController.swift in Sources */,
 				3BE1E2C52965732900E6E2BA /* RegisterViewController.swift in Sources */,
 				3B6311732952FF00000D5A35 /* AppDelegate.swift in Sources */,
 				3B0039BE296F48CD0037B1E6 /* DocProfileViewController.swift in Sources */,

@@ -20,10 +20,28 @@ class NewsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         newsTableView.dataSource = self
-        articles = mockData
+        newsTableView.delegate = self
+        fetchNews()
+//        articles = mockData
+    }
+    
+    func fetchNews(){
+        newsApiClient.fetchNews { news in
+            self.articles = news.articles
+            DispatchQueue.main.async {
+                self.newsTableView.reloadData()
+            }
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let destination = segue.destination as? ArticleViewController else {return}
+        guard let article = sender as? Article else {return}
+        destination.article = article
     }
 }
 
+// Table View data Source
 extension NewsViewController:  UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return articles?.count ?? 0
@@ -43,5 +61,15 @@ extension NewsViewController:  UITableViewDataSource {
             }
         }
         return cell
+    }
+}
+
+
+// Table View Delegate
+extension NewsViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let selectedArticle = articles?[indexPath.row] else {return}
+        tableView.deselectRow(at: indexPath, animated: true)
+        performSegue(withIdentifier: "showArticleSegue", sender: selectedArticle)
     }
 }

@@ -31,12 +31,12 @@ class HomeViewController: UIViewController {
     func creatDoctors(){
         doctor1 = Doctor(context: self.context)
         doctor1.name = "Dr.Tim"
-        doctor1.desText = ""
+        doctor1.desText = "- Dr.Tim \n- Hausarzt \n- 10 years Experience \n- Telephon: 0521 889956 \n- Email: M.M@gmail.comm "
         doctor1.image = ""
-        let termin1 = Termine(context: self.context)
-        termin1.day = "Montag"
-        termin1.termin = ["08:30","10:00","14:00"]
-        doctor1.addToTermin(termin1)
+//        let termin1 = Termine(context: self.context)
+//        termin1.day = "Montag"
+//        termin1.termin = ["08:30","10:00","14:00"]
+//        doctor1.addToTermin(termin1)
         
         try! self.context.save()
     }

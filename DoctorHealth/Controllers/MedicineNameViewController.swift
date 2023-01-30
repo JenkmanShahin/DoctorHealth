@@ -13,7 +13,6 @@ struct Plan {
     
 }
 
-
 import UIKit
 
 class MedicineViewController: UIViewController{

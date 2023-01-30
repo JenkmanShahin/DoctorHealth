@@ -13,20 +13,33 @@ private let apiKey = "08dc229d15ba46a5b6f67597a831beb4"
 
 enum NewsApiEndpoints: String {
     case everything = "/v2/everything"
-    case headlines = "/v2/top-headlines"
     case sources = "/v2/top-headlines/sources"
 }
 
+func buildURL(endpoint: NewsApiEndpoints, keyword: String) -> String{
+    return baseURL + NewsApiEndpoints.everything.rawValue + "?q=\(keyword)&apiKey=\(apiKey)"
+}
 struct NewsApiClient{
-    func fetchNews(){
+    func fetchNews(complitionHandler: @escaping(News) -> Void) {
         // access NewsApiEndpoints.everything
+        var newURL = buildURL(endpoint: NewsApiEndpoints.everything, keyword: "Medikamente")
+        newURL = newURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)!
+        guard let url = URL(string: newURL) else {return}
+        let session = URLSession.shared
+        let dataTask = session.dataTask(with: url) { data, response, error in
+            if(data != nil && error == nil) {
+                do {
+                    let news = try JSONDecoder().decode(News.self, from: data!)
+                    complitionHandler(news)
+                } catch {
+                    print("ERROR: \(error)")
+                }
+            }
+        }
+        dataTask.resume()
         
     }
-    
-    func fetchHeadlines(){
-        // access NewsApiEndpoints.headlines
-        
-    }
+  
     
     func fetchImageBy(imageURL: URL, completionHandler: @escaping(UIImage) -> Void){
         let session = URLSession.shared
