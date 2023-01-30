@@ -10,8 +10,6 @@ import UIKit
 
 class RegisterViewController: UIViewController{
     
-    
-    
     var user: [User]!
     
     @IBOutlet weak var birthdate: UITextField!

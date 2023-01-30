@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B0039832982AE0F00CD3CEB /* Termine+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B00397F2982AE0F00CD3CEB /* Termine+CoreDataClass.swift */; };
-		3B0039842982AE0F00CD3CEB /* Termine+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0039802982AE0F00CD3CEB /* Termine+CoreDataProperties.swift */; };
-		3B0039852982AE0F00CD3CEB /* Doctor+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0039812982AE0F00CD3CEB /* Doctor+CoreDataClass.swift */; };
-		3B0039862982AE0F00CD3CEB /* Doctor+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0039822982AE0F00CD3CEB /* Doctor+CoreDataProperties.swift */; };
 		3B0039BE296F48CD0037B1E6 /* DocProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0039BD296F48CD0037B1E6 /* DocProfileViewController.swift */; };
 		3B0039C0296F78C40037B1E6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0039BF296F78C40037B1E6 /* ProfileViewController.swift */; };
 		3B0CDF1729546E2D00492E44 /* Quintessential-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B0CDF1629546E2D00492E44 /* Quintessential-Regular.ttf */; };
-		3B1D427629685E62009DCA8A /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D427429685E62009DCA8A /* User+CoreDataClass.swift */; };
-		3B1D427729685E62009DCA8A /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D427529685E62009DCA8A /* User+CoreDataProperties.swift */; };
+		3B27C66E2984173C00D22C43 /* Doctor+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27C6662984173C00D22C43 /* Doctor+CoreDataClass.swift */; };
+		3B27C66F2984173C00D22C43 /* Doctor+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27C6672984173C00D22C43 /* Doctor+CoreDataProperties.swift */; };
+		3B27C6702984173C00D22C43 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27C6682984173C00D22C43 /* User+CoreDataClass.swift */; };
+		3B27C6712984173C00D22C43 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27C6692984173C00D22C43 /* User+CoreDataProperties.swift */; };
+		3B27C6722984173C00D22C43 /* Termine+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27C66A2984173C00D22C43 /* Termine+CoreDataClass.swift */; };
+		3B27C6732984173C00D22C43 /* Termine+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27C66B2984173C00D22C43 /* Termine+CoreDataProperties.swift */; };
+		3B27C6742984173C00D22C43 /* Time+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27C66C2984173C00D22C43 /* Time+CoreDataClass.swift */; };
+		3B27C6752984173C00D22C43 /* Time+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27C66D2984173C00D22C43 /* Time+CoreDataProperties.swift */; };
+		3B5E8D8D298719F30013A1B0 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E8D8C298719F30013A1B0 /* NewsViewController.swift */; };
+		3B5E8D91298736BD0013A1B0 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E8D90298736BD0013A1B0 /* News.swift */; };
+		3B5E8D932987379E0013A1B0 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E8D922987379E0013A1B0 /* Article.swift */; };
+		3B5E8D95298739220013A1B0 /* NewsApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E8D94298739220013A1B0 /* NewsApiClient.swift */; };
+		3B5E8D97298744C20013A1B0 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E8D96298744C20013A1B0 /* NewsTableViewCell.swift */; };
+		3B5E8D992987521E0013A1B0 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E8D982987521E0013A1B0 /* MockData.swift */; };
 		3B6311732952FF00000D5A35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6311722952FF00000D5A35 /* AppDelegate.swift */; };
 		3B6311752952FF00000D5A35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6311742952FF00000D5A35 /* SceneDelegate.swift */; };
 		3B6311772952FF00000D5A35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6311762952FF00000D5A35 /* ViewController.swift */; };
@@ -23,7 +31,6 @@
 		3B63117D2952FF00000D5A35 /* DoctorHealth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B63117B2952FF00000D5A35 /* DoctorHealth.xcdatamodeld */; };
 		3B63117F2952FF00000D5A35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B63117E2952FF00000D5A35 /* Assets.xcassets */; };
 		3B6311822952FF00000D5A35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6311802952FF00000D5A35 /* LaunchScreen.storyboard */; };
-		3B6C9C01296D705E00BD407A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C9C00296D705E00BD407A /* SearchViewController.swift */; };
 		3B6C9C03296D9DA800BD407A /* MedicineNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C9C02296D9DA800BD407A /* MedicineNameViewController.swift */; };
 		3B754FCA2971916900EA9D64 /* Teko-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B754FC92971916900EA9D64 /* Teko-Regular.ttf */; };
 		3B754FCC2971917700EA9D64 /* AbrilFatface-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B754FCB2971917700EA9D64 /* AbrilFatface-Regular.ttf */; };
@@ -35,16 +42,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3B00397F2982AE0F00CD3CEB /* Termine+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Termine+CoreDataClass.swift"; sourceTree = "<group>"; };
-		3B0039802982AE0F00CD3CEB /* Termine+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Termine+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		3B0039812982AE0F00CD3CEB /* Doctor+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Doctor+CoreDataClass.swift"; sourceTree = "<group>"; };
-		3B0039822982AE0F00CD3CEB /* Doctor+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Doctor+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3B0039BD296F48CD0037B1E6 /* DocProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocProfileViewController.swift; sourceTree = "<group>"; };
 		3B0039BF296F78C40037B1E6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3B0CDF1629546E2D00492E44 /* Quintessential-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quintessential-Regular.ttf"; sourceTree = "<group>"; };
 		3B0CDF1A2954716F00492E44 /* Bungee-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = text; name = "Bungee-Regular.ttf"; path = "../../../../../Downloads/Bungee/Bungee-Regular.ttf"; sourceTree = "<group>"; };
-		3B1D427429685E62009DCA8A /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
-		3B1D427529685E62009DCA8A /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3B27C6662984173C00D22C43 /* Doctor+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Doctor+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3B27C6672984173C00D22C43 /* Doctor+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Doctor+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3B27C6682984173C00D22C43 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3B27C6692984173C00D22C43 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3B27C66A2984173C00D22C43 /* Termine+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Termine+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3B27C66B2984173C00D22C43 /* Termine+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Termine+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3B27C66C2984173C00D22C43 /* Time+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Time+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3B27C66D2984173C00D22C43 /* Time+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Time+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3B5E8D8C298719F30013A1B0 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		3B5E8D90298736BD0013A1B0 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		3B5E8D922987379E0013A1B0 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		3B5E8D94298739220013A1B0 /* NewsApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsApiClient.swift; sourceTree = "<group>"; };
+		3B5E8D96298744C20013A1B0 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		3B5E8D982987521E0013A1B0 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		3B63116F2952FF00000D5A35 /* DoctorHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6311722952FF00000D5A35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B6311742952FF00000D5A35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,7 +69,6 @@
 		3B63117E2952FF00000D5A35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B6311812952FF00000D5A35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B6311832952FF00000D5A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B6C9C00296D705E00BD407A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		3B6C9C02296D9DA800BD407A /* MedicineNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineNameViewController.swift; sourceTree = "<group>"; };
 		3B754FC92971916900EA9D64 /* Teko-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Teko-Regular.ttf"; path = "../../../../../Downloads/Teko/Teko-Regular.ttf"; sourceTree = "<group>"; };
 		3B754FCB2971917700EA9D64 /* AbrilFatface-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AbrilFatface-Regular.ttf"; path = "../../../../../Downloads/Abril_Fatface/AbrilFatface-Regular.ttf"; sourceTree = "<group>"; };
@@ -87,15 +101,37 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		3B5E8D8E2987343D0013A1B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B5E8D90298736BD0013A1B0 /* News.swift */,
+				3B5E8D922987379E0013A1B0 /* Article.swift */,
+				3B5E8D94298739220013A1B0 /* NewsApiClient.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3B5E8D8F298734740013A1B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B6311802952FF00000D5A35 /* LaunchScreen.storyboard */,
+				3B6311782952FF00000D5A35 /* Main.storyboard */,
+				3B5E8D96298744C20013A1B0 /* NewsTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		3B6311662952FF00000D5A35 = {
 			isa = PBXGroup;
 			children = (
-				3B00397F2982AE0F00CD3CEB /* Termine+CoreDataClass.swift */,
-				3B0039802982AE0F00CD3CEB /* Termine+CoreDataProperties.swift */,
-				3B0039812982AE0F00CD3CEB /* Doctor+CoreDataClass.swift */,
-				3B0039822982AE0F00CD3CEB /* Doctor+CoreDataProperties.swift */,
-				3B1D427429685E62009DCA8A /* User+CoreDataClass.swift */,
-				3B1D427529685E62009DCA8A /* User+CoreDataProperties.swift */,
+				3B27C6662984173C00D22C43 /* Doctor+CoreDataClass.swift */,
+				3B27C6672984173C00D22C43 /* Doctor+CoreDataProperties.swift */,
+				3B27C6682984173C00D22C43 /* User+CoreDataClass.swift */,
+				3B27C6692984173C00D22C43 /* User+CoreDataProperties.swift */,
+				3B27C66A2984173C00D22C43 /* Termine+CoreDataClass.swift */,
+				3B27C66B2984173C00D22C43 /* Termine+CoreDataProperties.swift */,
+				3B27C66C2984173C00D22C43 /* Time+CoreDataClass.swift */,
+				3B27C66D2984173C00D22C43 /* Time+CoreDataProperties.swift */,
 				3B6311712952FF00000D5A35 /* DoctorHealth */,
 				3B6311702952FF00000D5A35 /* Products */,
 			);
@@ -112,34 +148,35 @@
 		3B6311712952FF00000D5A35 /* DoctorHealth */ = {
 			isa = PBXGroup;
 			children = (
+				3B5E8D8F298734740013A1B0 /* Views */,
+				3B5E8D8E2987343D0013A1B0 /* Models */,
 				3B0CDF1529546DC700492E44 /* Fonts */,
-				3BA5AEF0295399A900125AAF /* Views */,
+				3BA5AEF0295399A900125AAF /* Controllers */,
 				3B6311722952FF00000D5A35 /* AppDelegate.swift */,
 				3B6311742952FF00000D5A35 /* SceneDelegate.swift */,
-				3B6311782952FF00000D5A35 /* Main.storyboard */,
 				3B63117E2952FF00000D5A35 /* Assets.xcassets */,
-				3B6311802952FF00000D5A35 /* LaunchScreen.storyboard */,
 				3B6311832952FF00000D5A35 /* Info.plist */,
 				3B63117B2952FF00000D5A35 /* DoctorHealth.xcdatamodeld */,
+				3B5E8D982987521E0013A1B0 /* MockData.swift */,
 			);
 			path = DoctorHealth;
 			sourceTree = "<group>";
 		};
-		3BA5AEF0295399A900125AAF /* Views */ = {
+		3BA5AEF0295399A900125AAF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				3B6311762952FF00000D5A35 /* ViewController.swift */,
 				3BE1E2C42965732900E6E2BA /* RegisterViewController.swift */,
 				3B98DB482966D43D006BD2C3 /* LoginViewController.swift */,
 				3B98DB462966C65F006BD2C3 /* HomeViewController.swift */,
-				3B6C9C00296D705E00BD407A /* SearchViewController.swift */,
 				3B6C9C02296D9DA800BD407A /* MedicineNameViewController.swift */,
 				3B0039BD296F48CD0037B1E6 /* DocProfileViewController.swift */,
 				3B0039BF296F78C40037B1E6 /* ProfileViewController.swift */,
 				3BED1F842975B0F300F2967D /* DetailsViewController.swift */,
 				3BB5CE22298097D8008D3428 /* testViewController.swift */,
+				3B5E8D8C298719F30013A1B0 /* NewsViewController.swift */,
 			);
-			path = Views;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,25 +253,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B0039852982AE0F00CD3CEB /* Doctor+CoreDataClass.swift in Sources */,
-				3B6C9C01296D705E00BD407A /* SearchViewController.swift in Sources */,
+				3B27C6752984173C00D22C43 /* Time+CoreDataProperties.swift in Sources */,
+				3B5E8D8D298719F30013A1B0 /* NewsViewController.swift in Sources */,
+				3B5E8D932987379E0013A1B0 /* Article.swift in Sources */,
+				3B5E8D992987521E0013A1B0 /* MockData.swift in Sources */,
 				3B98DB492966D43E006BD2C3 /* LoginViewController.swift in Sources */,
 				3B6311772952FF00000D5A35 /* ViewController.swift in Sources */,
 				3BB5CE23298097D8008D3428 /* testViewController.swift in Sources */,
+				3B27C6722984173C00D22C43 /* Termine+CoreDataClass.swift in Sources */,
+				3B5E8D91298736BD0013A1B0 /* News.swift in Sources */,
+				3B27C66E2984173C00D22C43 /* Doctor+CoreDataClass.swift in Sources */,
 				3B6C9C03296D9DA800BD407A /* MedicineNameViewController.swift in Sources */,
-				3B0039862982AE0F00CD3CEB /* Doctor+CoreDataProperties.swift in Sources */,
+				3B27C6702984173C00D22C43 /* User+CoreDataClass.swift in Sources */,
 				3B98DB472966C65F006BD2C3 /* HomeViewController.swift in Sources */,
 				3BE1E2C52965732900E6E2BA /* RegisterViewController.swift in Sources */,
 				3B6311732952FF00000D5A35 /* AppDelegate.swift in Sources */,
 				3B0039BE296F48CD0037B1E6 /* DocProfileViewController.swift in Sources */,
 				3B63117D2952FF00000D5A35 /* DoctorHealth.xcdatamodeld in Sources */,
-				3B1D427629685E62009DCA8A /* User+CoreDataClass.swift in Sources */,
-				3B0039842982AE0F00CD3CEB /* Termine+CoreDataProperties.swift in Sources */,
+				3B27C6732984173C00D22C43 /* Termine+CoreDataProperties.swift in Sources */,
+				3B27C6742984173C00D22C43 /* Time+CoreDataClass.swift in Sources */,
 				3B0039C0296F78C40037B1E6 /* ProfileViewController.swift in Sources */,
+				3B27C6712984173C00D22C43 /* User+CoreDataProperties.swift in Sources */,
+				3B5E8D95298739220013A1B0 /* NewsApiClient.swift in Sources */,
 				3BED1F852975B0F300F2967D /* DetailsViewController.swift in Sources */,
+				3B5E8D97298744C20013A1B0 /* NewsTableViewCell.swift in Sources */,
 				3B6311752952FF00000D5A35 /* SceneDelegate.swift in Sources */,
-				3B0039832982AE0F00CD3CEB /* Termine+CoreDataClass.swift in Sources */,
-				3B1D427729685E62009DCA8A /* User+CoreDataProperties.swift in Sources */,
+				3B27C66F2984173C00D22C43 /* Doctor+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

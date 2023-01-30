@@ -2,7 +2,7 @@
 //  Doctor+CoreDataProperties.swift
 //  DoctorHealth
 //
-//  Created by jenkman Shahin on 26.01.23.
+//  Created by jenkman Shahin on 27.01.23.
 //
 //
 
@@ -16,9 +16,9 @@ extension Doctor {
         return NSFetchRequest<Doctor>(entityName: "Doctor")
     }
 
-    @NSManaged public var name: String?
     @NSManaged public var desText: String?
     @NSManaged public var image: String?
+    @NSManaged public var name: String?
     @NSManaged public var termin: NSSet?
 
 }

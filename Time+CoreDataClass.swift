@@ -1,5 +1,5 @@
 //
-//  Termine+CoreDataClass.swift
+//  Time+CoreDataClass.swift
 //  DoctorHealth
 //
 //  Created by jenkman Shahin on 27.01.23.
@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-@objc(Termine)
-public class Termine: NSManagedObject {
+@objc(Time)
+public class Time: NSManagedObject {
 
 }

@@ -10,6 +10,12 @@
         <attribute name="day" optional="YES" attributeType="String"/>
         <attribute name="termin" optional="YES" attributeType="Transformable" customClassName="[String]"/>
         <relationship name="doctor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Doctor" inverseName="termin" inverseEntity="Doctor"/>
+        <relationship name="terminToTime" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Time" inverseName="timeOfTermin" inverseEntity="Time"/>
+    </entity>
+    <entity name="Time" representedClassName="Time" syncable="YES">
+        <attribute name="hour" optional="YES" attributeType="String"/>
+        <attribute name="isBooked" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <relationship name="timeOfTermin" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Termine" inverseName="terminToTime" inverseEntity="Termine"/>
     </entity>
     <entity name="User" representedClassName="User" syncable="YES">
         <attribute name="birthdate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>

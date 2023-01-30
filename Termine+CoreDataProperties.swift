@@ -2,7 +2,7 @@
 //  Termine+CoreDataProperties.swift
 //  DoctorHealth
 //
-//  Created by jenkman Shahin on 26.01.23.
+//  Created by jenkman Shahin on 27.01.23.
 //
 //
 
@@ -19,6 +19,7 @@ extension Termine {
     @NSManaged public var day: String?
     @NSManaged public var termin: [String]?
     @NSManaged public var doctor: Doctor?
+    @NSManaged public var terminToTime: Time?
 
 }
 
