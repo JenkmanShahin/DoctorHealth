@@ -31,8 +31,16 @@ class HomeViewController: UIViewController {
     func creatDoctors(){
         doctor1 = Doctor(context: self.context)
         doctor1.name = "Dr.Tim"
-        doctor1.desText = "- Dr.Tim \n- Hausarzt \n- 10 years Experience \n- Telephon: 0521 889956 \n- Email: M.M@gmail.comm "
+        doctor1.desText = "- Dr.Tim \n- Familydoctor \n- 10 years Experience \n- Telephon: 0521 889956 \n- Email: M.M@gmail.comm "
         doctor1.image = ""
+        doctor2 = Doctor(context: self.context)
+        doctor2.name = "Dr.Sara"
+        doctor2.desText = "- Dr.Sara \n- Familydoctor \n- 7 years Experience \n- Telephon: 0521 889956 \n- Email: M.M@gmail.comm "
+        doctor2.image = ""
+        doctor3 = Doctor(context: self.context)
+        doctor3.name = "Dr.Mat"
+        doctor3.desText = "- Dr.Mat \n- Childrendoctor \n- 16 years Experience \n- Telephon: 0521 889956 \n- Email: M.M@gmail.comm "
+        doctor3.image = ""
 //        let termin1 = Termine(context: self.context)
 //        termin1.day = "Montag"
 //        termin1.termin = ["08:30","10:00","14:00"]

@@ -9,8 +9,9 @@ import UIKit
 
 class DetailsViewController: UIViewController{
     
-    @IBOutlet weak var tabletName: UILabel!
+    var plan: Plan!
     
+    @IBOutlet weak var tabletName: UILabel!
     @IBOutlet weak var morningField: UITextField!
     @IBOutlet weak var noonField: UITextField!
     @IBOutlet weak var eviningField: UITextField!
@@ -27,6 +28,7 @@ class DetailsViewController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+//        tabletName.text = plan.name
         morningTabletsPicker.dataSource = self
         morningTabletsPicker.delegate = self
         morningField.inputView = morningTabletsPicker
@@ -39,6 +41,14 @@ class DetailsViewController: UIViewController{
         eviningTabletsPicker.delegate = self
         eviningField.inputView = eviningTabletsPicker
         
+        let toolBar = UIToolbar()
+        toolBar.sizeToFit()
+        let btnDone = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(closePicker))
+        toolBar.setItems([btnDone], animated: true)
+        morningField.inputAccessoryView = toolBar
+        noonField.inputAccessoryView = toolBar
+        eviningField.inputAccessoryView = toolBar
+        
         let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
     }
@@ -49,6 +59,10 @@ class DetailsViewController: UIViewController{
     
     @IBAction func save(){
         
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
     }
 }
 
@@ -88,5 +102,9 @@ extension DetailsViewController: UIPickerViewDataSource, UIPickerViewDelegate {
             print("Hallo")
         }
         self.view.endEditing(true)
+    }
+    
+    @objc func closePicker(){
+        view.endEditing(true)
     }
 }
