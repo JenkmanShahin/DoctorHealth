@@ -47,13 +47,16 @@ class MedicineViewController: UIViewController{
         }))
         present(alert, animated: true)
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationViewController = segue.destination as! DetailsViewController
+        let plan = sender as! Plan
+        destinationViewController.plan = plan
+    }
 }
 
 extension MedicineViewController: UITableViewDataSource, UITableViewDelegate{
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 20
-    }
+
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return plan.count

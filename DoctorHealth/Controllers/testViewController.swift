@@ -25,7 +25,8 @@ class testViewController: UIViewController{
         super.viewDidLoad()
         doctorName.text = doctor.name
         doctorDescription.text = doctor.desText
-//        doctorImage.image = doctor.image
+        doctorImage.image = UIImage(named: doctor.image ?? "")
+
         
         
      

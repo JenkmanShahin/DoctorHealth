@@ -16,6 +16,10 @@ class DetailsViewController: UIViewController{
     @IBOutlet weak var noonField: UITextField!
     @IBOutlet weak var eviningField: UITextField!
     
+    @IBOutlet weak var morningLabel: UILabel!
+    @IBOutlet weak var noonLabel: UILabel!
+    @IBOutlet weak var eviningLabel: UILabel!
+
     let mortingTablets = ["1/2 Pill", "1 Pill", "2 Pill", "0.3 ml", "0.5 ml", "0.8 ml"]
     let morningTabletsPicker = UIPickerView()
     
@@ -26,9 +30,12 @@ class DetailsViewController: UIViewController{
     let eviningTabletsPicker = UIPickerView()
     
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        tabletName.text = plan.name
+        
+        tabletName.text = plan.name
         morningTabletsPicker.dataSource = self
         morningTabletsPicker.delegate = self
         morningField.inputView = morningTabletsPicker
@@ -52,6 +59,7 @@ class DetailsViewController: UIViewController{
         let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
     }
+  
     
     @objc func dismissKeyboard(){
         view.endEditing(true)

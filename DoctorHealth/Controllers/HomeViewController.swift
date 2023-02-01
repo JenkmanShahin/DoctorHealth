@@ -32,19 +32,16 @@ class HomeViewController: UIViewController {
         doctor1 = Doctor(context: self.context)
         doctor1.name = "Dr.Tim"
         doctor1.desText = "- Dr.Tim \n- Familydoctor \n- 10 years Experience \n- Telephon: 0521 889956 \n- Email: M.M@gmail.comm "
-        doctor1.image = ""
+        doctor1.image = "man health worker_"
         doctor2 = Doctor(context: self.context)
         doctor2.name = "Dr.Sara"
         doctor2.desText = "- Dr.Sara \n- Familydoctor \n- 7 years Experience \n- Telephon: 0521 889956 \n- Email: M.M@gmail.comm "
-        doctor2.image = ""
+        doctor2.image = "woman health worker_"
         doctor3 = Doctor(context: self.context)
         doctor3.name = "Dr.Mat"
         doctor3.desText = "- Dr.Mat \n- Childrendoctor \n- 16 years Experience \n- Telephon: 0521 889956 \n- Email: M.M@gmail.comm "
-        doctor3.image = ""
-//        let termin1 = Termine(context: self.context)
-//        termin1.day = "Montag"
-//        termin1.termin = ["08:30","10:00","14:00"]
-//        doctor1.addToTermin(termin1)
+        doctor3.image = "man health worker_"
+
         
         try! self.context.save()
     }
@@ -57,6 +54,14 @@ class HomeViewController: UIViewController {
 
     @IBAction func buttonPressed(){
         performSegue(withIdentifier: "show_details", sender: doctor1)
+    }
+    
+    @IBAction func buttonPressed2(){
+        performSegue(withIdentifier: "show_details", sender: doctor2)
+    }
+    
+    @IBAction func buttonPressed3(){
+        performSegue(withIdentifier: "show_details", sender: doctor3)
     }
     
     override func viewDidAppear(_ animated: Bool) {

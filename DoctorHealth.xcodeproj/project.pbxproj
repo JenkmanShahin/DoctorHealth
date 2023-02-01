@@ -10,14 +10,6 @@
 		3B0039BE296F48CD0037B1E6 /* DocProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0039BD296F48CD0037B1E6 /* DocProfileViewController.swift */; };
 		3B0039C0296F78C40037B1E6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0039BF296F78C40037B1E6 /* ProfileViewController.swift */; };
 		3B0CDF1729546E2D00492E44 /* Quintessential-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B0CDF1629546E2D00492E44 /* Quintessential-Regular.ttf */; };
-		3B27C66E2984173C00D22C43 /* Doctor+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27C6662984173C00D22C43 /* Doctor+CoreDataClass.swift */; };
-		3B27C66F2984173C00D22C43 /* Doctor+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27C6672984173C00D22C43 /* Doctor+CoreDataProperties.swift */; };
-		3B27C6702984173C00D22C43 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27C6682984173C00D22C43 /* User+CoreDataClass.swift */; };
-		3B27C6712984173C00D22C43 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27C6692984173C00D22C43 /* User+CoreDataProperties.swift */; };
-		3B27C6722984173C00D22C43 /* Termine+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27C66A2984173C00D22C43 /* Termine+CoreDataClass.swift */; };
-		3B27C6732984173C00D22C43 /* Termine+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27C66B2984173C00D22C43 /* Termine+CoreDataProperties.swift */; };
-		3B27C6742984173C00D22C43 /* Time+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27C66C2984173C00D22C43 /* Time+CoreDataClass.swift */; };
-		3B27C6752984173C00D22C43 /* Time+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27C66D2984173C00D22C43 /* Time+CoreDataProperties.swift */; };
 		3B5E8D8D298719F30013A1B0 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E8D8C298719F30013A1B0 /* NewsViewController.swift */; };
 		3B5E8D91298736BD0013A1B0 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E8D90298736BD0013A1B0 /* News.swift */; };
 		3B5E8D932987379E0013A1B0 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E8D922987379E0013A1B0 /* Article.swift */; };
@@ -38,6 +30,14 @@
 		3B98DB472966C65F006BD2C3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B98DB462966C65F006BD2C3 /* HomeViewController.swift */; };
 		3B98DB492966D43E006BD2C3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B98DB482966D43D006BD2C3 /* LoginViewController.swift */; };
 		3BB5CE23298097D8008D3428 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB5CE22298097D8008D3428 /* testViewController.swift */; };
+		3BB6463C298A9A4500DB3AC2 /* Time+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB64634298A9A4500DB3AC2 /* Time+CoreDataClass.swift */; };
+		3BB6463D298A9A4500DB3AC2 /* Time+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB64635298A9A4500DB3AC2 /* Time+CoreDataProperties.swift */; };
+		3BB6463E298A9A4500DB3AC2 /* Doctor+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB64636298A9A4500DB3AC2 /* Doctor+CoreDataClass.swift */; };
+		3BB6463F298A9A4500DB3AC2 /* Doctor+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB64637298A9A4500DB3AC2 /* Doctor+CoreDataProperties.swift */; };
+		3BB64640298A9A4500DB3AC2 /* Termine+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB64638298A9A4500DB3AC2 /* Termine+CoreDataClass.swift */; };
+		3BB64641298A9A4500DB3AC2 /* Termine+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB64639298A9A4500DB3AC2 /* Termine+CoreDataProperties.swift */; };
+		3BB64642298A9A4500DB3AC2 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB6463A298A9A4500DB3AC2 /* User+CoreDataClass.swift */; };
+		3BB64643298A9A4500DB3AC2 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB6463B298A9A4500DB3AC2 /* User+CoreDataProperties.swift */; };
 		3BE1E2C52965732900E6E2BA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1E2C42965732900E6E2BA /* RegisterViewController.swift */; };
 		3BED1F852975B0F300F2967D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BED1F842975B0F300F2967D /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
@@ -47,14 +47,6 @@
 		3B0039BF296F78C40037B1E6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3B0CDF1629546E2D00492E44 /* Quintessential-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quintessential-Regular.ttf"; sourceTree = "<group>"; };
 		3B0CDF1A2954716F00492E44 /* Bungee-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = text; name = "Bungee-Regular.ttf"; path = "../../../../../Downloads/Bungee/Bungee-Regular.ttf"; sourceTree = "<group>"; };
-		3B27C6662984173C00D22C43 /* Doctor+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Doctor+CoreDataClass.swift"; sourceTree = "<group>"; };
-		3B27C6672984173C00D22C43 /* Doctor+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Doctor+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		3B27C6682984173C00D22C43 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
-		3B27C6692984173C00D22C43 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		3B27C66A2984173C00D22C43 /* Termine+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Termine+CoreDataClass.swift"; sourceTree = "<group>"; };
-		3B27C66B2984173C00D22C43 /* Termine+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Termine+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		3B27C66C2984173C00D22C43 /* Time+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Time+CoreDataClass.swift"; sourceTree = "<group>"; };
-		3B27C66D2984173C00D22C43 /* Time+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Time+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3B5E8D8C298719F30013A1B0 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		3B5E8D90298736BD0013A1B0 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		3B5E8D922987379E0013A1B0 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
@@ -77,6 +69,14 @@
 		3B98DB462966C65F006BD2C3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3B98DB482966D43D006BD2C3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3BB5CE22298097D8008D3428 /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		3BB64634298A9A4500DB3AC2 /* Time+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Time+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3BB64635298A9A4500DB3AC2 /* Time+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Time+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3BB64636298A9A4500DB3AC2 /* Doctor+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Doctor+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3BB64637298A9A4500DB3AC2 /* Doctor+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Doctor+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3BB64638298A9A4500DB3AC2 /* Termine+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Termine+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3BB64639298A9A4500DB3AC2 /* Termine+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Termine+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3BB6463A298A9A4500DB3AC2 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3BB6463B298A9A4500DB3AC2 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3BE1E2C42965732900E6E2BA /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		3BED1F842975B0F300F2967D /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,14 +126,14 @@
 		3B6311662952FF00000D5A35 = {
 			isa = PBXGroup;
 			children = (
-				3B27C6662984173C00D22C43 /* Doctor+CoreDataClass.swift */,
-				3B27C6672984173C00D22C43 /* Doctor+CoreDataProperties.swift */,
-				3B27C6682984173C00D22C43 /* User+CoreDataClass.swift */,
-				3B27C6692984173C00D22C43 /* User+CoreDataProperties.swift */,
-				3B27C66A2984173C00D22C43 /* Termine+CoreDataClass.swift */,
-				3B27C66B2984173C00D22C43 /* Termine+CoreDataProperties.swift */,
-				3B27C66C2984173C00D22C43 /* Time+CoreDataClass.swift */,
-				3B27C66D2984173C00D22C43 /* Time+CoreDataProperties.swift */,
+				3BB64634298A9A4500DB3AC2 /* Time+CoreDataClass.swift */,
+				3BB64635298A9A4500DB3AC2 /* Time+CoreDataProperties.swift */,
+				3BB64636298A9A4500DB3AC2 /* Doctor+CoreDataClass.swift */,
+				3BB64637298A9A4500DB3AC2 /* Doctor+CoreDataProperties.swift */,
+				3BB64638298A9A4500DB3AC2 /* Termine+CoreDataClass.swift */,
+				3BB64639298A9A4500DB3AC2 /* Termine+CoreDataProperties.swift */,
+				3BB6463A298A9A4500DB3AC2 /* User+CoreDataClass.swift */,
+				3BB6463B298A9A4500DB3AC2 /* User+CoreDataProperties.swift */,
 				3B6311712952FF00000D5A35 /* DoctorHealth */,
 				3B6311702952FF00000D5A35 /* Products */,
 			);
@@ -256,33 +256,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B27C6752984173C00D22C43 /* Time+CoreDataProperties.swift in Sources */,
 				3B5E8D8D298719F30013A1B0 /* NewsViewController.swift in Sources */,
+				3BB6463D298A9A4500DB3AC2 /* Time+CoreDataProperties.swift in Sources */,
 				3B5E8D932987379E0013A1B0 /* Article.swift in Sources */,
 				3B5E8D992987521E0013A1B0 /* MockData.swift in Sources */,
+				3BB6463E298A9A4500DB3AC2 /* Doctor+CoreDataClass.swift in Sources */,
 				3B98DB492966D43E006BD2C3 /* LoginViewController.swift in Sources */,
 				3B6311772952FF00000D5A35 /* ViewController.swift in Sources */,
 				3BB5CE23298097D8008D3428 /* testViewController.swift in Sources */,
-				3B27C6722984173C00D22C43 /* Termine+CoreDataClass.swift in Sources */,
 				3B5E8D91298736BD0013A1B0 /* News.swift in Sources */,
-				3B27C66E2984173C00D22C43 /* Doctor+CoreDataClass.swift in Sources */,
+				3BB6463F298A9A4500DB3AC2 /* Doctor+CoreDataProperties.swift in Sources */,
 				3B6C9C03296D9DA800BD407A /* MedicineNameViewController.swift in Sources */,
-				3B27C6702984173C00D22C43 /* User+CoreDataClass.swift in Sources */,
 				3B98DB472966C65F006BD2C3 /* HomeViewController.swift in Sources */,
 				3B9697222987D2C900EC36D4 /* ArticleViewController.swift in Sources */,
 				3BE1E2C52965732900E6E2BA /* RegisterViewController.swift in Sources */,
 				3B6311732952FF00000D5A35 /* AppDelegate.swift in Sources */,
 				3B0039BE296F48CD0037B1E6 /* DocProfileViewController.swift in Sources */,
+				3BB64642298A9A4500DB3AC2 /* User+CoreDataClass.swift in Sources */,
+				3BB64643298A9A4500DB3AC2 /* User+CoreDataProperties.swift in Sources */,
+				3BB64641298A9A4500DB3AC2 /* Termine+CoreDataProperties.swift in Sources */,
 				3B63117D2952FF00000D5A35 /* DoctorHealth.xcdatamodeld in Sources */,
-				3B27C6732984173C00D22C43 /* Termine+CoreDataProperties.swift in Sources */,
-				3B27C6742984173C00D22C43 /* Time+CoreDataClass.swift in Sources */,
+				3BB6463C298A9A4500DB3AC2 /* Time+CoreDataClass.swift in Sources */,
 				3B0039C0296F78C40037B1E6 /* ProfileViewController.swift in Sources */,
-				3B27C6712984173C00D22C43 /* User+CoreDataProperties.swift in Sources */,
 				3B5E8D95298739220013A1B0 /* NewsApiClient.swift in Sources */,
 				3BED1F852975B0F300F2967D /* DetailsViewController.swift in Sources */,
 				3B5E8D97298744C20013A1B0 /* NewsTableViewCell.swift in Sources */,
+				3BB64640298A9A4500DB3AC2 /* Termine+CoreDataClass.swift in Sources */,
 				3B6311752952FF00000D5A35 /* SceneDelegate.swift in Sources */,
-				3B27C66F2984173C00D22C43 /* Doctor+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
