@@ -19,20 +19,32 @@ class MedicineViewController: UIViewController{
     
     @IBOutlet weak var tableView: UITableView!
     
-    var plan = [Plan(name: "IbuBrufen", morning: "String?", noon: "", evening: "")]
+    var selectedMedicine: MedicineTime!
+    var medicineTimes: [MedicineTime]!
     
+    let context = (UIApplication.shared.delegate as!
+                   AppDelegate).persistentContainer.viewContext
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
+        fetchTimes()
+        tableView.reloadData()
     }
     
     @IBAction func startEditing(_ sender: Any){
         tableView.isEditing = !tableView.isEditing
     }
 
-    
+    func fetchTimes(){
+        do{
+            let request = MedicineTime.fetchRequest()
+            let medicineTimes = try context.fetch(request)
+        } catch{
+            print("Error fetiching medicineTime")
+        }
+    }
     @IBAction func Add(_ sender: Any){
         let alert = UIAlertController(title: "Add a new Plan", message: "Do you want to add a new Plan ?", preferredStyle: .alert)
         
@@ -41,8 +53,13 @@ class MedicineViewController: UIViewController{
         alert.addAction(UIAlertAction(title: "Add", style: .default, handler: {(_)
             in
             let text = alert.textFields?.first?.text
-            let newPlan = Plan(name: text, morning: "", noon: "", evening: "")
-            self.plan.append(newPlan)
+            let newPlan = MedicineTime(context: self.context)
+            newPlan.name = text
+            do{
+                try self.context.save()
+            } catch {
+                print("Error saving newPill")
+            }
             self.tableView.reloadData()
         }))
         present(alert, animated: true)
@@ -50,8 +67,8 @@ class MedicineViewController: UIViewController{
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destinationViewController = segue.destination as! DetailsViewController
-        let plan = sender as! Plan
-        destinationViewController.plan = plan
+        let medicineTime = sender as! MedicineTime
+        destinationViewController.medicineTime = medicineTime
     }
 }
 
@@ -59,31 +76,31 @@ extension MedicineViewController: UITableViewDataSource, UITableViewDelegate{
 
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return plan.count
+        return medicineTimes?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "planCell", for: indexPath)
         
         var content = cell.defaultContentConfiguration()
-        content.text = plan[indexPath.row].name
+        content.text = medicineTimes[indexPath.row].name
         cell.contentConfiguration = content
         
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let selectedPlan = plan[indexPath.row]
+        let selectedPlan = medicineTimes[indexPath.row]
         performSegue(withIdentifier: "showDetailSegue", sender: selectedPlan)
     }
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if(editingStyle == .delete){
-            plan.remove(at: indexPath.row)
+            medicineTimes.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else {
             if indexPath.section == 1{
-                plan.remove(at: indexPath.row)
+                medicineTimes.remove(at: indexPath.row)
                 tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.fade)
             }
        }

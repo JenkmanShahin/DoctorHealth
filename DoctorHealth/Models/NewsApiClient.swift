@@ -21,8 +21,7 @@ func buildURL(endpoint: NewsApiEndpoints, keyword: String) -> String{
 }
 struct NewsApiClient{
     func fetchNews(complitionHandler: @escaping(News) -> Void) {
-        // access NewsApiEndpoints.everything
-        var newURL = buildURL(endpoint: NewsApiEndpoints.everything, keyword: "Medikamente")
+        var newURL = buildURL(endpoint: NewsApiEndpoints.everything, keyword: "Health")
         newURL = newURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)!
         guard let url = URL(string: newURL) else {return}
         let session = URLSession.shared

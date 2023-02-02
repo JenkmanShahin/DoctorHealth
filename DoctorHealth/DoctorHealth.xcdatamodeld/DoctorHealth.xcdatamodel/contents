@@ -4,18 +4,15 @@
         <attribute name="desText" optional="YES" attributeType="String"/>
         <attribute name="image" optional="YES" attributeType="String"/>
         <attribute name="name" optional="YES" attributeType="String"/>
-        <relationship name="termin" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Termine" inverseName="doctor" inverseEntity="Termine"/>
     </entity>
-    <entity name="Termine" representedClassName="Termine" syncable="YES">
-        <attribute name="day" optional="YES" attributeType="String"/>
-        <attribute name="termin" optional="YES" attributeType="Transformable" customClassName="[String]"/>
-        <relationship name="doctor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Doctor" inverseName="termin" inverseEntity="Doctor"/>
-        <relationship name="terminToTime" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Time" inverseName="timeOfTermin" inverseEntity="Time"/>
+    <entity name="MedicineTime" representedClassName="MedicineTime" syncable="YES">
+        <attribute name="eviningPill" optional="YES" attributeType="String"/>
+        <attribute name="morningPill" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="noonPill" optional="YES" attributeType="String"/>
     </entity>
-    <entity name="Time" representedClassName="Time" syncable="YES">
-        <attribute name="hour" optional="YES" attributeType="String"/>
-        <attribute name="isBooked" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
-        <relationship name="timeOfTermin" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Termine" inverseName="terminToTime" inverseEntity="Termine"/>
+    <entity name="Termin" representedClassName="Termin" syncable="YES">
+        <attribute name="termin" optional="YES" attributeType="String"/>
     </entity>
     <entity name="User" representedClassName="User" syncable="YES">
         <attribute name="birthdate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>

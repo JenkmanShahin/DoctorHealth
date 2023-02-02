@@ -9,7 +9,8 @@ import UIKit
 
 class DetailsViewController: UIViewController{
     
-    var plan: Plan!
+
+    var medicineTime: MedicineTime!
     
     @IBOutlet weak var tabletName: UILabel!
     @IBOutlet weak var morningField: UITextField!
@@ -19,6 +20,9 @@ class DetailsViewController: UIViewController{
     @IBOutlet weak var morningLabel: UILabel!
     @IBOutlet weak var noonLabel: UILabel!
     @IBOutlet weak var eviningLabel: UILabel!
+    
+    let context = (UIApplication.shared.delegate as!
+                   AppDelegate).persistentContainer.viewContext
 
     let mortingTablets = ["1/2 Pill", "1 Pill", "2 Pill", "0.3 ml", "0.5 ml", "0.8 ml"]
     let morningTabletsPicker = UIPickerView()
@@ -35,7 +39,7 @@ class DetailsViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tabletName.text = plan.name
+        tabletName.text = medicineTime.name
         morningTabletsPicker.dataSource = self
         morningTabletsPicker.delegate = self
         morningField.inputView = morningTabletsPicker
@@ -64,9 +68,23 @@ class DetailsViewController: UIViewController{
     @objc func dismissKeyboard(){
         view.endEditing(true)
     }
+   
     
     @IBAction func save(){
+        medicineTime.morningPill = morningField.text
+        morningLabel.text = morningField.text
+        medicineTime.noonPill = noonField.text
+        noonLabel.text = noonField.text
+        medicineTime.eviningPill = eviningField.text
+        eviningLabel.text = eviningField.text
         
+        if medicineTime.morningPill != "" && medicineTime.noonPill != "" && medicineTime.eviningPill != ""{
+            do{
+                try self.context.save()
+            } catch {
+                print("Error saving newPill")
+            }
+        }
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

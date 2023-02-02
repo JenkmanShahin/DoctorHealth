@@ -75,7 +75,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello User" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vgm-Wr-h05">
                                 <rect key="frame" x="67" y="116" width="306" height="25"/>
                                 <fontDescription key="fontDescription" name="Georgia-BoldItalic" family="Georgia" pointSize="22"/>
-                                <color key="textColor" red="0.8156862855" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.91752099799999998" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vrD-A9-0N2">
@@ -143,7 +143,7 @@
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="filled" title="Show Detalis">
                                                                     <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="0.0"/>
-                                                                    <color key="baseForegroundColor" red="0.8156862855" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                    <color key="baseForegroundColor" red="0.91752099799999998" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                     <color key="baseBackgroundColor" red="0.0011625825429999999" green="0.26269915700000002" blue="0.24312540890000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -182,7 +182,7 @@
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="filled" title="Show Detalis">
                                                                     <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="0.0"/>
-                                                                    <color key="baseForegroundColor" red="0.8156862855" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                    <color key="baseForegroundColor" red="0.91752099799999998" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                     <color key="baseBackgroundColor" red="0.0011625825429999999" green="0.26269915700000002" blue="0.24312540890000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -222,8 +222,8 @@
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="filled" title="Show Detalis">
                                                                     <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="0.0"/>
-                                                                    <color key="baseForegroundColor" red="0.8156862855" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                    <color key="baseBackgroundColor" red="0.0011625825429999999" green="0.26269915700000002" blue="0.24312540890000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <color key="baseForegroundColor" red="0.91764705882352937" green="0.54117647058823526" blue="0.41960784313725491" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                    <color key="baseBackgroundColor" red="0.0" green="0.2627450980392157" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
                                                                     <action selector="buttonPressed2" destination="tRY-iM-JbL" eventType="touchUpInside" id="Xxg-fv-0F4"/>
@@ -368,7 +368,7 @@ Monday, Tuesday, Thursday
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="REGISTER">
                                     <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="0.0"/>
-                                    <color key="baseForegroundColor" red="0.8156862855" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseForegroundColor" red="0.91752099799999998" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" red="0.0" green="0.2627450980392157" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -384,7 +384,7 @@ Monday, Tuesday, Thursday
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="LOGIN">
                                     <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="0.0"/>
-                                    <color key="baseForegroundColor" red="0.8156862855" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseForegroundColor" red="0.91752099799999998" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" red="0.0011625825429999999" green="0.26269915700000002" blue="0.24312540890000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -397,7 +397,7 @@ Monday, Tuesday, Thursday
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Join the DoctorHealth " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2RE-O3-uTD">
                                 <rect key="frame" x="40" y="103" width="313" height="27.333333333333343"/>
                                 <fontDescription key="fontDescription" name="Georgia-BoldItalic" family="Georgia" pointSize="24"/>
-                                <color key="textColor" red="0.8156862855" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.91752099799999998" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -433,6 +433,9 @@ Monday, Tuesday, Thursday
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logainabsc" translatesAutoresizingMaskIntoConstraints="NO" id="K8N-Y1-9z3">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="FullName:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2u-Ul-JFN">
                                 <rect key="frame" x="40" y="119" width="99" height="25"/>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-BookIta" family="Bodoni 72" pointSize="20"/>
@@ -475,9 +478,9 @@ Monday, Tuesday, Thursday
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QUn-u6-EWa">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QUn-u6-EWa">
                                 <rect key="frame" x="40" y="148" width="313" height="40"/>
-                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="3vo-d4-oF7"/>
                                 </constraints>
@@ -485,9 +488,9 @@ Monday, Tuesday, Thursday
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HPs-wM-r5G">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HPs-wM-r5G">
                                 <rect key="frame" x="40" y="415" width="313" height="40"/>
-                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="snJ-4c-3Vp"/>
                                 </constraints>
@@ -495,9 +498,9 @@ Monday, Tuesday, Thursday
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uP2-qo-41x">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uP2-qo-41x">
                                 <rect key="frame" x="40" y="504" width="313" height="40"/>
-                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="nyS-Pf-Uj8"/>
                                 </constraints>
@@ -505,9 +508,9 @@ Monday, Tuesday, Thursday
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wcj-Nh-zHU">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wcj-Nh-zHU">
                                 <rect key="frame" x="40" y="593" width="313" height="40"/>
-                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="xQV-NU-CWF"/>
                                 </constraints>
@@ -515,9 +518,9 @@ Monday, Tuesday, Thursday
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W7F-9g-iPa">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W7F-9g-iPa">
                                 <rect key="frame" x="40" y="682" width="313" height="40"/>
-                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="KDV-NC-k30"/>
                                 </constraints>
@@ -525,9 +528,9 @@ Monday, Tuesday, Thursday
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WEC-lS-ZKQ">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WEC-lS-ZKQ">
                                 <rect key="frame" x="40" y="326" width="313" height="40"/>
-                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="k1i-dN-VX7"/>
                                 </constraints>
@@ -535,9 +538,9 @@ Monday, Tuesday, Thursday
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KYA-kt-THP">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KYA-kt-THP">
                                 <rect key="frame" x="40" y="237" width="313" height="40"/>
-                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="KgW-jb-ChZ"/>
                                 </constraints>
@@ -553,7 +556,7 @@ Monday, Tuesday, Thursday
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="REGISTERIEREN">
                                     <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="0.0"/>
-                                    <color key="baseForegroundColor" red="0.8156862855" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseForegroundColor" red="0.91752099799999998" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" red="0.0011625825429999999" green="0.26269915700000002" blue="0.24312540890000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -575,6 +578,7 @@ Monday, Tuesday, Thursday
                             <constraint firstItem="WEC-lS-ZKQ" firstAttribute="top" secondItem="eQf-9N-Id8" secondAttribute="bottom" constant="4" id="GkB-Ms-nhp"/>
                             <constraint firstItem="C3d-zJ-lfl" firstAttribute="leading" secondItem="ilE-RZ-yej" secondAttribute="leading" constant="40" id="Hsx-w1-eZW"/>
                             <constraint firstItem="KYA-kt-THP" firstAttribute="top" secondItem="pbM-cl-zGy" secondAttribute="bottom" constant="4" id="J5X-PP-TQD"/>
+                            <constraint firstItem="K8N-Y1-9z3" firstAttribute="top" secondItem="WEr-z8-hO7" secondAttribute="top" id="Lvl-Rx-Jrw"/>
                             <constraint firstItem="uP2-qo-41x" firstAttribute="top" secondItem="C3d-zJ-lfl" secondAttribute="bottom" constant="4" id="M0u-iC-FSM"/>
                             <constraint firstItem="ilE-RZ-yej" firstAttribute="trailing" secondItem="HPs-wM-r5G" secondAttribute="trailing" constant="40" id="M7b-yI-C9I"/>
                             <constraint firstItem="9gO-ej-2Qx" firstAttribute="top" secondItem="wcj-Nh-zHU" secondAttribute="bottom" constant="20" id="ODT-yq-ZrP"/>
@@ -583,6 +587,8 @@ Monday, Tuesday, Thursday
                             <constraint firstItem="ilE-RZ-yej" firstAttribute="trailing" secondItem="wcj-Nh-zHU" secondAttribute="trailing" constant="40" id="RHE-GR-tL8"/>
                             <constraint firstItem="ilE-RZ-yej" firstAttribute="trailing" secondItem="W7F-9g-iPa" secondAttribute="trailing" constant="40" id="Rzw-Q2-afn"/>
                             <constraint firstItem="wcj-Nh-zHU" firstAttribute="top" secondItem="cYC-MF-Brw" secondAttribute="bottom" constant="4" id="TGE-tx-QfV"/>
+                            <constraint firstItem="K8N-Y1-9z3" firstAttribute="leading" secondItem="ilE-RZ-yej" secondAttribute="leading" id="Tvb-h7-hbc"/>
+                            <constraint firstItem="K8N-Y1-9z3" firstAttribute="trailing" secondItem="ilE-RZ-yej" secondAttribute="trailing" id="U6P-Wa-SG1"/>
                             <constraint firstItem="cYC-MF-Brw" firstAttribute="leading" secondItem="ilE-RZ-yej" secondAttribute="leading" constant="40" id="UUY-ph-cQb"/>
                             <constraint firstItem="g2u-Ul-JFN" firstAttribute="leading" secondItem="ilE-RZ-yej" secondAttribute="leading" constant="40" id="UXh-Wx-q6G"/>
                             <constraint firstItem="exL-eL-B2A" firstAttribute="top" secondItem="WEC-lS-ZKQ" secondAttribute="bottom" constant="20" id="VQF-Vh-I9C"/>
@@ -593,6 +599,7 @@ Monday, Tuesday, Thursday
                             <constraint firstItem="ilE-RZ-yej" firstAttribute="trailing" secondItem="uP2-qo-41x" secondAttribute="trailing" constant="40" id="YlN-LJ-i1J"/>
                             <constraint firstItem="ilE-RZ-yej" firstAttribute="trailing" secondItem="KYA-kt-THP" secondAttribute="trailing" constant="40" id="ciF-09-YFl"/>
                             <constraint firstItem="ilE-RZ-yej" firstAttribute="trailing" secondItem="QUn-u6-EWa" secondAttribute="trailing" constant="40" id="d7f-cc-KIo"/>
+                            <constraint firstAttribute="bottom" secondItem="K8N-Y1-9z3" secondAttribute="bottom" id="fgF-wy-PFC"/>
                             <constraint firstItem="pbM-cl-zGy" firstAttribute="leading" secondItem="ilE-RZ-yej" secondAttribute="leading" constant="40" id="gIE-bo-snU"/>
                             <constraint firstItem="eQf-9N-Id8" firstAttribute="top" secondItem="KYA-kt-THP" secondAttribute="bottom" constant="20" id="jfv-ye-KCc"/>
                             <constraint firstItem="HPs-wM-r5G" firstAttribute="leading" secondItem="ilE-RZ-yej" secondAttribute="leading" constant="40" id="ku2-u8-ERx"/>
@@ -742,13 +749,13 @@ Monday, Tuesday, Thursday
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cul-i6-uqm">
                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="700"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="hYX-yo-s4Y">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="caardeee" translatesAutoresizingMaskIntoConstraints="NO" id="hYX-yo-s4Y">
                                                         <rect key="frame" x="0.0" y="100" width="393" height="489"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Efg-1G-zMu">
                                                         <rect key="frame" x="159" y="130" width="97.333333333333314" height="23"/>
                                                         <fontDescription key="fontDescription" name="Georgia-BoldItalic" family="Georgia" pointSize="20"/>
-                                                        <color key="textColor" red="0.8156862855" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="textColor" red="0.91752099799999998" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="9uI-q6-G2L">
@@ -762,7 +769,7 @@ Monday, Tuesday, Thursday
                                                             </imageView>
                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vSv-ut-HH5">
                                                                 <rect key="frame" x="160" y="0.0" width="191" height="150.66666666666666"/>
-                                                                <color key="backgroundColor" red="0.68616404162134637" green="0.68560772504174117" blue="0.69532518998723747" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
                                                                 <string key="text">
 - Dr. name
 - specialization
@@ -788,7 +795,6 @@ Monday, Tuesday, Thursday
                                                         <string key="text">Label
 </string>
                                                         <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="21"/>
-                                                        <color key="textColor" red="0.8156862855" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <datePicker contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="30" style="compact" translatesAutoresizingMaskIntoConstraints="NO" id="Oco-h6-Rfn">
@@ -797,6 +803,18 @@ Monday, Tuesday, Thursday
                                                             <action selector="datePicker:" destination="xSp-EZ-VMk" eventType="valueChanged" id="lKn-az-eIE"/>
                                                         </connections>
                                                     </datePicker>
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfn-W7-lMH">
+                                                        <rect key="frame" x="255" y="516" width="88" height="35"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Confirm">
+                                                            <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="0.0"/>
+                                                            <color key="baseForegroundColor" red="0.0" green="0.26274509800000001" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="baseBackgroundColor" red="0.91752099799999998" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="confirmBTN:" destination="xSp-EZ-VMk" eventType="touchUpInside" id="yuG-vW-XbA"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                                 <viewLayoutGuide key="safeArea" id="PFb-kr-1JM"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -805,7 +823,9 @@ Monday, Tuesday, Thursday
                                                     <constraint firstAttribute="trailing" secondItem="hYX-yo-s4Y" secondAttribute="trailing" id="2ia-AJ-W6t"/>
                                                     <constraint firstItem="hYX-yo-s4Y" firstAttribute="leading" secondItem="Cul-i6-uqm" secondAttribute="leading" id="315-lr-fuL"/>
                                                     <constraint firstItem="9uI-q6-G2L" firstAttribute="top" secondItem="Efg-1G-zMu" secondAttribute="bottom" constant="25" id="5Cl-Iv-0hG"/>
+                                                    <constraint firstItem="PFb-kr-1JM" firstAttribute="trailing" secondItem="lfn-W7-lMH" secondAttribute="trailing" constant="50" id="5iN-3H-9dz"/>
                                                     <constraint firstAttribute="bottom" secondItem="hYX-yo-s4Y" secondAttribute="bottom" constant="111" id="5u4-XC-YtS"/>
+                                                    <constraint firstItem="lfn-W7-lMH" firstAttribute="top" secondItem="D8F-IS-sMd" secondAttribute="bottom" constant="33.666666666666686" id="9jW-oy-eUU"/>
                                                     <constraint firstItem="D8F-IS-sMd" firstAttribute="top" secondItem="Oco-h6-Rfn" secondAttribute="bottom" constant="37.670000000000002" id="Bnm-Xi-3hv"/>
                                                     <constraint firstItem="hYX-yo-s4Y" firstAttribute="trailing" secondItem="PFb-kr-1JM" secondAttribute="trailing" id="FAP-OJ-gVu"/>
                                                     <constraint firstItem="GK0-sq-mQz" firstAttribute="top" secondItem="9uI-q6-G2L" secondAttribute="bottom" constant="20.329999999999998" id="K4C-xY-iXd"/>
@@ -819,6 +839,7 @@ Monday, Tuesday, Thursday
                                                     <constraint firstItem="D8F-IS-sMd" firstAttribute="leading" secondItem="PFb-kr-1JM" secondAttribute="leading" constant="21" id="epA-80-fWd"/>
                                                     <constraint firstAttribute="height" constant="700" id="iZ7-8f-PRL"/>
                                                     <constraint firstItem="Efg-1G-zMu" firstAttribute="top" secondItem="Cul-i6-uqm" secondAttribute="top" constant="130" id="isl-qr-OgX"/>
+                                                    <constraint firstItem="lfn-W7-lMH" firstAttribute="leading" secondItem="PFb-kr-1JM" secondAttribute="leading" constant="255" id="m8p-LP-Gnz"/>
                                                     <constraint firstItem="Efg-1G-zMu" firstAttribute="leading" secondItem="Cul-i6-uqm" secondAttribute="leading" constant="159" id="n2b-d0-Umk"/>
                                                     <constraint firstItem="hYX-yo-s4Y" firstAttribute="top" secondItem="Cul-i6-uqm" secondAttribute="top" constant="100" id="nC5-5t-fiP"/>
                                                     <constraint firstItem="hYX-yo-s4Y" firstAttribute="bottom" secondItem="PFb-kr-1JM" secondAttribute="bottom" constant="-111" id="rmI-Z3-upJ"/>
@@ -1013,7 +1034,7 @@ Monday, Tuesday, Thursday
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tablets Plan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8W6-6s-rb2">
                                 <rect key="frame" x="96" y="139" width="201" height="25"/>
                                 <fontDescription key="fontDescription" name="Georgia-BoldItalic" family="Georgia" pointSize="22"/>
-                                <color key="textColor" red="0.8156862855" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.91752099799999998" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NbZ-mf-LQ3">
@@ -1027,14 +1048,14 @@ Monday, Tuesday, Thursday
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="syP-0W-hZF">
-                                <rect key="frame" x="30" y="690" width="333" height="40"/>
+                                <rect key="frame" x="30" y="678" width="333" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="irB-Xt-uXo"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Save">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
-                                    <color key="baseForegroundColor" red="0.8156862855" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseForegroundColor" red="0.91752099799999998" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" red="0.0011625825429999999" green="0.26269915700000002" blue="0.24312540890000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -1056,19 +1077,19 @@ Monday, Tuesday, Thursday
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v0t-Vq-tbC">
                                 <rect key="frame" x="216" y="321" width="88" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" red="0.8156862855" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9y-NZ-mk4">
                                 <rect key="frame" x="216" y="413" width="88" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" red="0.8156862855" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8e-9x-kLK">
                                 <rect key="frame" x="216" y="508.99999999999994" width="88" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" red="0.8156862855" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -1089,7 +1110,7 @@ Monday, Tuesday, Thursday
                             <constraint firstItem="8qV-6q-kCc" firstAttribute="trailing" secondItem="mX0-wa-eII" secondAttribute="trailing" constant="23" id="FS9-bO-hJa"/>
                             <constraint firstItem="M9y-NZ-mk4" firstAttribute="top" secondItem="NbZ-mf-LQ3" secondAttribute="bottom" constant="8" id="I6P-sC-caG"/>
                             <constraint firstItem="8qV-6q-kCc" firstAttribute="trailing" secondItem="syP-0W-hZF" secondAttribute="trailing" constant="30" id="II8-kS-BZR"/>
-                            <constraint firstItem="8qV-6q-kCc" firstAttribute="bottom" secondItem="syP-0W-hZF" secondAttribute="bottom" constant="88" id="L0S-pI-uje"/>
+                            <constraint firstItem="8qV-6q-kCc" firstAttribute="bottom" secondItem="syP-0W-hZF" secondAttribute="bottom" constant="100" id="L0S-pI-uje"/>
                             <constraint firstItem="XMg-jh-IDm" firstAttribute="top" secondItem="CeA-5n-DN6" secondAttribute="bottom" constant="69.333333333333371" id="Lp8-ic-5xw"/>
                             <constraint firstItem="IB7-S5-TpJ" firstAttribute="top" secondItem="XMg-jh-IDm" secondAttribute="bottom" constant="73.666666666666686" id="M4h-1n-r2z"/>
                             <constraint firstAttribute="trailingMargin" secondItem="8W6-6s-rb2" secondAttribute="trailing" constant="80" id="OgV-p2-6W7"/>
@@ -1117,8 +1138,11 @@ Monday, Tuesday, Thursday
                     <navigationItem key="navigationItem" id="1Vr-g9-2fv"/>
                     <connections>
                         <outlet property="eviningField" destination="0SD-UW-f7b" id="pDd-QY-mWJ"/>
+                        <outlet property="eviningLabel" destination="o8e-9x-kLK" id="CnX-mb-CsE"/>
                         <outlet property="morningField" destination="mX0-wa-eII" id="ogT-13-YUV"/>
+                        <outlet property="morningLabel" destination="v0t-Vq-tbC" id="ryw-BR-a27"/>
                         <outlet property="noonField" destination="NbZ-mf-LQ3" id="SqQ-PH-0md"/>
+                        <outlet property="noonLabel" destination="M9y-NZ-mk4" id="kuS-Un-XOW"/>
                         <outlet property="tabletName" destination="reZ-nw-Ntn" id="4fv-oz-eaT"/>
                     </connections>
                 </viewController>
@@ -1167,7 +1191,7 @@ Monday, Tuesday, Thursday
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Edit">
                                     <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="0.0"/>
-                                    <color key="baseForegroundColor" red="0.8156862855" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseForegroundColor" red="0.91752099799999998" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" red="0.0011625825429999999" green="0.26269915700000002" blue="0.24312540890000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -1181,7 +1205,7 @@ Monday, Tuesday, Thursday
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="plus.app.fill" catalog="system">
-                                    <color key="baseForegroundColor" red="0.8156862855" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseForegroundColor" red="0.91752099799999998" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" red="0.0011625825429999999" green="0.26269915700000002" blue="0.24312540890000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -1243,7 +1267,7 @@ Monday, Tuesday, Thursday
                                 </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j3k-wl-TGg">
-                                <rect key="frame" x="16" y="110" width="64" height="21.333333333333343"/>
+                                <rect key="frame" x="15.999999999999996" y="110" width="63.666666666666657" height="21.333333333333343"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="j3k-wl-TGg" secondAttribute="height" multiplier="3:1" id="8rr-KN-kmH"/>
                                 </constraints>
@@ -1251,8 +1275,8 @@ Monday, Tuesday, Thursday
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="t1F-Wi-XGb">
-                                <rect key="frame" x="20" y="636" width="335" height="118"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t1F-Wi-XGb">
+                                <rect key="frame" x="15" y="584" width="362" height="118"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="118" id="exZ-9c-okV"/>
@@ -1269,19 +1293,48 @@ Monday, Tuesday, Thursday
                                     <constraint firstAttribute="width" constant="64" id="JbW-7f-ZwM"/>
                                 </constraints>
                             </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="87" translatesAutoresizingMaskIntoConstraints="NO" id="ryg-Ai-tWP">
+                                <rect key="frame" x="83" y="413" width="227" height="80"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZJ-1t-WaP">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="D9v-a9-jsm"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screenshot 2023-01-31 at 15.57.42" translatesAutoresizingMaskIntoConstraints="NO" id="7FR-Wk-Sli">
+                                        <rect key="frame" x="137" y="0.0" width="90" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="90" id="5DL-M8-bEn"/>
+                                            <constraint firstAttribute="height" constant="80" id="IVZ-wn-OzL"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.26274509800000001" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.1553476751" green="0.42334273459999999" blue="0.48224395510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="7FR-Wk-Sli" secondAttribute="trailing" id="qSc-Pk-Zha"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="045-TR-LAY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="045-TR-LAY" firstAttribute="trailing" secondItem="t1F-Wi-XGb" secondAttribute="trailing" constant="38" id="1Ao-b4-ID2"/>
+                            <constraint firstItem="045-TR-LAY" firstAttribute="trailing" secondItem="t1F-Wi-XGb" secondAttribute="trailing" constant="16" id="1Ao-b4-ID2"/>
                             <constraint firstItem="j3k-wl-TGg" firstAttribute="leading" secondItem="045-TR-LAY" secondAttribute="leading" constant="16" id="3kw-I7-xcP"/>
                             <constraint firstItem="82d-tS-2Ml" firstAttribute="top" secondItem="045-TR-LAY" secondAttribute="top" constant="3" id="Dgu-Mh-Kzq"/>
-                            <constraint firstItem="045-TR-LAY" firstAttribute="bottom" secondItem="t1F-Wi-XGb" secondAttribute="bottom" constant="15" id="Jlq-x9-tHe"/>
+                            <constraint firstItem="045-TR-LAY" firstAttribute="trailing" secondItem="ryg-Ai-tWP" secondAttribute="trailing" constant="83" id="HRO-4S-bG9"/>
+                            <constraint firstItem="045-TR-LAY" firstAttribute="bottom" secondItem="t1F-Wi-XGb" secondAttribute="bottom" constant="67" id="Jlq-x9-tHe"/>
                             <constraint firstItem="LaD-E1-ZU1" firstAttribute="leading" secondItem="045-TR-LAY" secondAttribute="leading" constant="16" id="N8h-df-E5T"/>
+                            <constraint firstItem="t1F-Wi-XGb" firstAttribute="top" secondItem="ryg-Ai-tWP" secondAttribute="bottom" constant="91" id="PpS-fi-csY"/>
                             <constraint firstItem="j3k-wl-TGg" firstAttribute="top" secondItem="045-TR-LAY" secondAttribute="top" constant="7" id="Rl0-vF-0oq"/>
                             <constraint firstItem="LaD-E1-ZU1" firstAttribute="top" secondItem="045-TR-LAY" secondAttribute="top" constant="36" id="ShQ-yj-1Fc"/>
                             <constraint firstItem="045-TR-LAY" firstAttribute="trailing" secondItem="82d-tS-2Ml" secondAttribute="trailing" constant="16" id="TYt-vH-aiq"/>
-                            <constraint firstItem="t1F-Wi-XGb" firstAttribute="leading" secondItem="045-TR-LAY" secondAttribute="leading" constant="20" id="x4I-9H-FYE"/>
+                            <constraint firstItem="ryg-Ai-tWP" firstAttribute="leading" secondItem="045-TR-LAY" secondAttribute="leading" constant="83" id="ip0-Kv-vP5"/>
+                            <constraint firstItem="t1F-Wi-XGb" firstAttribute="leading" secondItem="045-TR-LAY" secondAttribute="leading" constant="15" id="x4I-9H-FYE"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" image="person.circle" catalog="system" id="MsS-z7-YgL"/>
@@ -1301,6 +1354,9 @@ Monday, Tuesday, Thursday
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logainabsc" translatesAutoresizingMaskIntoConstraints="NO" id="o9R-zE-3q5">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sol-f2-2YR">
                                 <rect key="frame" x="40" y="203" width="49.666666666666657" height="25"/>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-BookIta" family="Bodoni 72" pointSize="20"/>
@@ -1313,9 +1369,9 @@ Monday, Tuesday, Thursday
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fXW-kr-SgQ">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fXW-kr-SgQ">
                                 <rect key="frame" x="40" y="236" width="313" height="45"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="sDC-cR-dIt"/>
                                 </constraints>
@@ -1323,9 +1379,9 @@ Monday, Tuesday, Thursday
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hvW-hh-P48">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hvW-hh-P48">
                                 <rect key="frame" x="40" y="334" width="313" height="45"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="Ipy-0Z-6HU"/>
                                 </constraints>
@@ -1341,7 +1397,7 @@ Monday, Tuesday, Thursday
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="LOG IN">
                                     <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="0.0"/>
-                                    <color key="baseForegroundColor" red="0.8156862855" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseForegroundColor" red="0.91752099799999998" green="0.5411764979" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" red="0.001827168744" green="0.22741311789999999" blue="0.20783534649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -1354,9 +1410,12 @@ Monday, Tuesday, Thursday
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="b1x-3f-1e1" firstAttribute="leading" secondItem="WIV-vc-Lo4" secondAttribute="leading" constant="40" id="6tg-AE-T2j"/>
+                            <constraint firstItem="o9R-zE-3q5" firstAttribute="leading" secondItem="WIV-vc-Lo4" secondAttribute="leading" id="9nl-tB-5m0"/>
                             <constraint firstItem="hvW-hh-P48" firstAttribute="top" secondItem="67x-5r-f7e" secondAttribute="bottom" constant="8" symbolic="YES" id="Fc2-vI-yzk"/>
+                            <constraint firstItem="o9R-zE-3q5" firstAttribute="trailing" secondItem="WIV-vc-Lo4" secondAttribute="trailing" id="PKo-CQ-7zw"/>
                             <constraint firstItem="fXW-kr-SgQ" firstAttribute="top" secondItem="sol-f2-2YR" secondAttribute="bottom" constant="8" id="R9O-gz-MgR"/>
                             <constraint firstItem="WIV-vc-Lo4" firstAttribute="trailing" secondItem="fXW-kr-SgQ" secondAttribute="trailing" constant="40" id="RPT-Mb-6uJ"/>
+                            <constraint firstAttribute="bottom" secondItem="o9R-zE-3q5" secondAttribute="bottom" id="TUh-we-QYm"/>
                             <constraint firstItem="67x-5r-f7e" firstAttribute="leading" secondItem="WIV-vc-Lo4" secondAttribute="leading" constant="40" id="UFi-Tl-sVK"/>
                             <constraint firstItem="WIV-vc-Lo4" firstAttribute="trailing" secondItem="hvW-hh-P48" secondAttribute="trailing" constant="40" id="WQ5-yq-77Z"/>
                             <constraint firstItem="sol-f2-2YR" firstAttribute="leading" secondItem="WIV-vc-Lo4" secondAttribute="leading" constant="40" id="XWJ-HT-bzy"/>
@@ -1365,6 +1424,7 @@ Monday, Tuesday, Thursday
                             <constraint firstItem="67x-5r-f7e" firstAttribute="top" secondItem="fXW-kr-SgQ" secondAttribute="bottom" constant="20" id="gIY-qN-RgC"/>
                             <constraint firstItem="WIV-vc-Lo4" firstAttribute="trailing" secondItem="b1x-3f-1e1" secondAttribute="trailing" constant="40" id="ozs-um-w1n"/>
                             <constraint firstItem="fXW-kr-SgQ" firstAttribute="leading" secondItem="WIV-vc-Lo4" secondAttribute="leading" constant="40" id="pBq-wI-eUd"/>
+                            <constraint firstItem="o9R-zE-3q5" firstAttribute="top" secondItem="gyb-Rn-TGI" secondAttribute="top" id="r64-RH-n7K"/>
                             <constraint firstItem="hvW-hh-P48" firstAttribute="leading" secondItem="WIV-vc-Lo4" secondAttribute="leading" constant="40" id="wNg-O3-pSL"/>
                         </constraints>
                     </view>
@@ -1409,9 +1469,10 @@ Monday, Tuesday, Thursday
     <resources>
         <image name="Kassenrezept_Muster" width="1200" height="851"/>
         <image name="Screenshot 2023-01-31 at 15.57.42" width="1318" height="1294"/>
-        <image name="back" width="325" height="387"/>
+        <image name="caardeee" width="272" height="469"/>
         <image name="house" catalog="system" width="128" height="104"/>
         <image name="istockphoto-1222063533-612x612 (1)" width="408" height="612"/>
+        <image name="logainabsc" width="314" height="367"/>
         <image name="man health worker_" width="123" height="144"/>
         <image name="newspaper" catalog="system" width="128" height="111"/>
         <image name="person.circle" catalog="system" width="128" height="123"/>
@@ -1428,8 +1489,11 @@ Monday, Tuesday, Thursday
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemGrayColor">
-            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
