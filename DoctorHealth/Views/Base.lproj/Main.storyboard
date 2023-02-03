@@ -81,8 +81,8 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vrD-A9-0N2">
                                 <rect key="frame" x="0.0" y="168" width="393" height="601"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="x8v-6m-hwi">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1109"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="x8v-6m-hwi">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1089"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r57-N3-y10">
                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="185"/>
@@ -115,7 +115,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iB7-y7-LqV">
-                                                <rect key="frame" x="0.0" y="195" width="393" height="510"/>
+                                                <rect key="frame" x="0.0" y="185" width="393" height="510"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="UqT-3E-mjl">
                                                         <rect key="frame" x="32" y="73" width="140" height="201"/>
@@ -258,7 +258,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5fr-q6-ELe">
-                                                <rect key="frame" x="0.0" y="715" width="393" height="394"/>
+                                                <rect key="frame" x="0.0" y="695" width="393" height="394"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FHJ-KY-nsY">
                                                         <rect key="frame" x="8" y="19" width="370" height="356"/>
@@ -287,7 +287,7 @@ Monday, Tuesday, Thursday
                                                         <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jnG-Ba-FtQ">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ISS_4266_10208-mod-1024x712" translatesAutoresizingMaskIntoConstraints="NO" id="jnG-Ba-FtQ">
                                                         <rect key="frame" x="8" y="19" width="101" height="84"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="84" id="0qG-26-cyQ"/>
@@ -391,7 +391,7 @@ Monday, Tuesday, Thursday
                                     <segue destination="WQO-Fn-yHf" kind="show" id="oMs-d1-clN"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="istockphoto-1222063533-612x612 (1)" translatesAutoresizingMaskIntoConstraints="NO" id="krn-rp-zaP">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="istockphoto-1222063533-612x612 (1)" translatesAutoresizingMaskIntoConstraints="NO" id="krn-rp-zaP">
                                 <rect key="frame" x="0.0" y="155.33333333333331" width="393" height="534.66666666666674"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Join the DoctorHealth " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2RE-O3-uTD">
@@ -433,7 +433,7 @@ Monday, Tuesday, Thursday
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logainabsc" translatesAutoresizingMaskIntoConstraints="NO" id="K8N-Y1-9z3">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="K8N-Y1-9z3">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="FullName:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2u-Ul-JFN">
@@ -1163,14 +1163,14 @@ Monday, Tuesday, Thursday
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="planCell" id="HrB-Ks-YXz">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="45.333332061767578"/>
+                                        <rect key="frame" x="0.0" y="50" width="393" height="45.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HrB-Ks-YXz" id="avZ-0e-FxG">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="45.333332061767578"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="45.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4LM-Jf-SwS">
-                                                    <rect key="frame" x="20" y="10.999999999999998" width="353" height="23.333333333333329"/>
+                                                    <rect key="frame" x="20" y="11.000000000000002" width="353" height="23.666666666666671"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -1310,10 +1310,11 @@ Monday, Tuesday, Thursday
                                         <constraints>
                                             <constraint firstAttribute="width" constant="90" id="5DL-M8-bEn"/>
                                             <constraint firstAttribute="height" constant="80" id="IVZ-wn-OzL"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="zrg-wn-2eI"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.26274509800000001" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.36384531989349123" blue="0.33783551381021809" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.1553476751" green="0.42334273459999999" blue="0.48224395510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="7FR-Wk-Sli" secondAttribute="trailing" id="qSc-Pk-Zha"/>
@@ -1467,8 +1468,10 @@ Monday, Tuesday, Thursday
     </scenes>
     <color key="tintColor" red="0.231372565" green="0.41568624970000001" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>
+        <image name="ISS_4266_10208-mod-1024x712" width="1024" height="712"/>
         <image name="Kassenrezept_Muster" width="1200" height="851"/>
         <image name="Screenshot 2023-01-31 at 15.57.42" width="1318" height="1294"/>
+        <image name="back" width="325" height="387"/>
         <image name="caardeee" width="272" height="469"/>
         <image name="house" catalog="system" width="128" height="104"/>
         <image name="istockphoto-1222063533-612x612 (1)" width="408" height="612"/>

@@ -14,6 +14,7 @@ struct Plan {
 }
 
 import UIKit
+import CoreData
 
 class MedicineViewController: UIViewController{
     
@@ -22,6 +23,10 @@ class MedicineViewController: UIViewController{
     var selectedMedicine: MedicineTime!
     var medicineTimes: [MedicineTime]!
     
+    
+    
+
+    
     let context = (UIApplication.shared.delegate as!
                    AppDelegate).persistentContainer.viewContext
     
@@ -29,8 +34,13 @@ class MedicineViewController: UIViewController{
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
+      
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
         fetchTimes()
-        tableView.reloadData()
+        self.tableView.reloadData()
     }
     
     @IBAction func startEditing(_ sender: Any){
@@ -40,10 +50,20 @@ class MedicineViewController: UIViewController{
     func fetchTimes(){
         do{
             let request = MedicineTime.fetchRequest()
-            let medicineTimes = try context.fetch(request)
+             medicineTimes = try context.fetch(request)
+            
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+               
+            }
+            
         } catch{
             print("Error fetiching medicineTime")
+            
+            
         }
+       
+      
     }
     @IBAction func Add(_ sender: Any){
         let alert = UIAlertController(title: "Add a new Plan", message: "Do you want to add a new Plan ?", preferredStyle: .alert)
@@ -76,14 +96,20 @@ extension MedicineViewController: UITableViewDataSource, UITableViewDelegate{
 
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return medicineTimes?.count ?? 0
+       
+        if medicineTimes != nil {
+            return medicineTimes!.count
+        }
+      
+        return 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "planCell", for: indexPath)
         
         var content = cell.defaultContentConfiguration()
-        content.text = medicineTimes[indexPath.row].name
+        print(content)
+        content.text = medicineTimes?[indexPath.row].name ?? "Nothing"
         cell.contentConfiguration = content
         
         return cell

@@ -2,7 +2,7 @@
 //  MedicineTime+CoreDataProperties.swift
 //  DoctorHealth
 //
-//  Created by jenkman Shahin on 02.02.23.
+//  Created by jenkman Shahin on 03.02.23.
 //
 //
 
@@ -16,10 +16,10 @@ extension MedicineTime {
         return NSFetchRequest<MedicineTime>(entityName: "MedicineTime")
     }
 
-    @NSManaged public var morningPill: String?
-    @NSManaged public var noonPill: String?
     @NSManaged public var eviningPill: String?
+    @NSManaged public var morningPill: String?
     @NSManaged public var name: String?
+    @NSManaged public var noonPill: String?
 
 }
 
