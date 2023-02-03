@@ -24,9 +24,6 @@ class MedicineViewController: UIViewController{
     var medicineTimes: [MedicineTime]!
     
     
-    
-
-    
     let context = (UIApplication.shared.delegate as!
                    AppDelegate).persistentContainer.viewContext
     
@@ -34,8 +31,7 @@ class MedicineViewController: UIViewController{
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
-      
-        
+    
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -54,17 +50,13 @@ class MedicineViewController: UIViewController{
             
             DispatchQueue.main.async {
                 self.tableView.reloadData()
-               
             }
             
         } catch{
             print("Error fetiching medicineTime")
-            
-            
         }
-       
-      
     }
+    
     @IBAction func Add(_ sender: Any){
         let alert = UIAlertController(title: "Add a new Plan", message: "Do you want to add a new Plan ?", preferredStyle: .alert)
         
@@ -100,7 +92,6 @@ extension MedicineViewController: UITableViewDataSource, UITableViewDelegate{
         if medicineTimes != nil {
             return medicineTimes!.count
         }
-      
         return 0
     }
     
