@@ -58,10 +58,10 @@ class MedicineViewController: UIViewController{
     }
     
     @IBAction func Add(_ sender: Any){
-        let alert = UIAlertController(title: "Add a new Plan", message: "Do you want to add a new Plan ?", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Add a new Medicine", message: "Do you want to add a new Medicine?", preferredStyle: .alert)
         
         alert.addTextField()
-        alert.addAction(UIAlertAction(title: "Cancle", style: .cancel))
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel))
         alert.addAction(UIAlertAction(title: "Add", style: .default, handler: {(_)
             in
             let text = alert.textFields?.first?.text
@@ -72,7 +72,8 @@ class MedicineViewController: UIViewController{
             } catch {
                 print("Error saving newPill")
             }
-            self.tableView.reloadData()
+            self.fetchTimes()
+            
         }))
         present(alert, animated: true)
     }
@@ -113,14 +114,18 @@ extension MedicineViewController: UITableViewDataSource, UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if(editingStyle == .delete){
+            let toRemove = medicineTimes[indexPath.row]
             medicineTimes.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .fade)
-        } else {
-            if indexPath.section == 1{
-                medicineTimes.remove(at: indexPath.row)
-                tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.fade)
-            }
-       }
+            self.context.delete(toRemove)
+        }
+        
+        do{
+            try self.context.save()
+        } catch {
+            print("Error saving newPill")
+        }
+        self.tableView.reloadData()
     }
 }
 

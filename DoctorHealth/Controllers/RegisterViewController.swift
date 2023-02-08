@@ -133,7 +133,7 @@ class RegisterViewController: UIViewController{
         
       }
       
-      func createToolbar() -> UIToolbar {
+    func createToolbar() -> UIToolbar {
         let toolbar = UIToolbar()
         
         toolbar.sizeToFit()
@@ -142,13 +142,6 @@ class RegisterViewController: UIViewController{
         
         return toolbar
         
-      }
-
-    //transferdata
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let destinationVC = segue.destination as! HomeViewController
-        let user = sender as! User
-        destinationVC.user = user
     }
 }
 

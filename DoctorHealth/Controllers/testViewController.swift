@@ -29,7 +29,6 @@ class testViewController: UIViewController{
         doctorImage.image = UIImage(named: doctor.image ?? "")
         fetchTermin()
         
-
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
@@ -76,26 +75,3 @@ class testViewController: UIViewController{
         appointmentLabel.text = dateFormater.string(from: datePicker.date)
     }
 }
-
-
-
-//extension testViewController: UIPickerViewDataSource, UIPickerViewDelegate{
-//
-//    func numberOfComponents(in pickerView: UIPickerView) -> Int {
-//        return 1
-//    }
-    
-//    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-//
-//    }
-//
-//    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-//
-//    }
-//
-//    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int){
-//
-//    }
-    
-    
-

@@ -61,11 +61,14 @@ class LoginViewController: UIViewController{
         
         if users != nil {
             for user in users! {
-                NotificationCenter.default.post(name: NSNotification.Name.init("login"), object: user)
-                (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
                
                 if  (user.email == email.text && user.password == password.text) {
-                    
+                    logUser = user
+                    DispatchQueue.main.async {
+                        NotificationCenter.default.post(name: NSNotification.Name.init("login"), object: self.logUser)
+                          }
+                   
+                    (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
                   
                 }
             }

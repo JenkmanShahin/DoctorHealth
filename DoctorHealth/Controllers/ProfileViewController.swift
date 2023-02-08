@@ -14,6 +14,12 @@ class ProfileViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
+    
+    @IBAction func logoutBTN(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let loginController = storyboard.instantiateViewController(identifier: "LoginNavigationController")
+            (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(loginController)
+    }
+    
 }
